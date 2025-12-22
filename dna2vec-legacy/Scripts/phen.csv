@@ -1,0 +1,16 @@
+Strain,Ethanol_Tolerance,Killer_Activity,Pigment_Intensity,Copper_Resistance,Sugar_Utilization,H2S,Protease,Lipase,Growth_Rate,Glucosidase,SO2_Resistance,Esterase,Gluconic_Acid_Utilization,Notes
+277,3.3,6,9,3.3,7,4,6,5,6,5,6,6,7,Numeric strain; environmental
+AP47,0,9,9,6.7,6,4,8,8,6,6,5,8,7,M. fructicola AP47 reported
+APC 1.2,6.7,6,6,3.3,8,4,6,5,8,6,6,6,7,Plant-associated
+Bath1,3.3,3,6,0,6,5,5,5,4,5,4,5,5,Environmental isolate
+CBS 10809T,10,9,9,10,9,4,8,6,9,8,9,8,8,Type strain
+CBS 15341,6.7,6,9,6.7,8,4,6,5,6,6,6,6,7,Clinical/environmental
+DBT012,3.3,9,9,3.3,8,5,8,8,9,6,6,8,8,Antimicrobial producer
+FL01,0,3,6,0,5,5,5,5,4,5,4,5,5,Contig-based
+KIOM G15050,3.3,6,6,3.3,6,4,6,6,6,6,6,6,7,Korean isolate
+NRRL Y-27328,3.3,6,9,3.3,7,4,6,5,6,6,6,6,7,xf normalized
+NRRL Y-48710,3.3,6,6,3.3,6,4,6,6,6,5,6,6,6,Uncertain provenance
+NRRL Y-48711,6.7,9,9,6.7,8,4,8,8,8,8,8,8,8,Environmental isolate
+NRRL Y-48712,6.7,9,9,6.7,8,4,8,6,8,6,8,8,7,Environmental isolate
+NRRL Y-7111T,10,9,9,10,9,4,8,6,9,8,9,8,8,Type strain pulcherrimin
+UCD127,3.3,6,6,3.3,6,4,6,6,6,5,6,6,6,UCD isolate
