@@ -1,0 +1,6 @@
+functional_category,Copper_Resistance,Esterase,Ethanol_Tolerance,Gluconic_Acid_Utilization,Glucosidase,Growth_Rate,H2S,Lipase,Protease,SO2_Resistance,Sugar_Utilization
+Metabolism,0.0,0.0,0.0,0.0,0.0,76.47058823529412,0.0,0.0,0.0,0.0,0.0
+Other,97.36842105263158,100.0,13.698630136986301,0.0,100.0,23.52941176470588,100.0,100.0,100.0,100.0,100.0
+Redox / energy,0.0,0.0,86.3013698630137,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Stress response,2.631578947368421,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Transport,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
