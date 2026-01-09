@@ -1,1 +1,16 @@
+name: mpulch_ml
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - biopython
+  - pip
+  - pip:
+      - dna2vec
 
