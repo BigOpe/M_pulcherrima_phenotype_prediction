@@ -410,3 +410,581 @@ print("Aggregated contig lengths by strain and saved summary to strain_contig_su
                         writer.writerow([strain, contig_id, locus_tag, product, functional_category])
 
 print(f"Mapping complete! Output saved to {output_file}")
+
+import pandas as pd
+
+# Step 1: Create contig-to-strain mapping
+contig_to_strain = {
+    # CP
+    "CP034462.1": "CP",
+    "CP034461.1": "CP",
+    "CP034460.1": "CP",
+    "CP034459.1": "CP",
+    "CP034458.1": "CP",
+    "CP034457.1": "CP",
+    "CP034456.1": "CP",
+    
+    # JAQFWG
+    "JAQFWG010000001.1": "JAQFWG",
+    "JAQFWG010000002.1": "JAQFWG",
+    "JAQFWG010000003.1": "JAQFWG",
+    "JAQFWG010000006.1": "JAQFWG",
+    "JAQFWG010000007.1": "JAQFWG",
+    "JAQFWG010000008.1": "JAQFWG",
+    "JAQFWG010000009.1": "JAQFWG",
+    "JAQFWG010000011.1": "JAQFWG",
+    "JAQFWG010000012.1": "JAQFWG",
+    "JAQFWG010000013.1": "JAQFWG",
+    "JAQFWG010000014.1": "JAQFWG",
+    "JAQFWG010000015.1": "JAQFWG",
+    "JAQFWG010000016.1": "JAQFWG",
+    "JAQFWG010000017.1": "JAQFWG",
+    "JAQFWG010000018.1": "JAQFWG",
+    "JAQFWG010000019.1": "JAQFWG",
+    "JAQFWG010000020.1": "JAQFWG",
+    "JAQFWG010000021.1": "JAQFWG",
+    "JAQFWG010000022.1": "JAQFWG",
+    "JAQFWG010000023.1": "JAQFWG",
+    "JAQFWG010000024.1": "JAQFWG",
+    
+    # JAJMIJ
+    "JAJMIJ010000343.1": "JAJMIJ",
+    "JAJMIJ010000344.1": "JAJMIJ",
+    "JAJMIJ010000345.1": "JAJMIJ",
+    "JAJMIJ010000346.1": "JAJMIJ",
+    "JAJMIJ010000347.1": "JAJMIJ",
+    "JAJMIJ010000348.1": "JAJMIJ",
+    "JAJMIJ010000349.1": "JAJMIJ",
+    "JAJMIJ010000350.1": "JAJMIJ",
+    "JAJMIJ010000351.1": "JAJMIJ",
+    "JAJMIJ010000352.1": "JAJMIJ",
+    "JAJMIJ010000353.1": "JAJMIJ",
+    "JAJMIJ010000354.1": "JAJMIJ",
+    "JAJMIJ010000355.1": "JAJMIJ",
+    "JAJMIJ010000356.1": "JAJMIJ",
+    "JAJMIJ010000357.1": "JAJMIJ",
+    "JAJMIJ010000358.1": "JAJMIJ",
+    "JAJMIJ010000360.1": "JAJMIJ",
+    "JAJMIJ010000361.1": "JAJMIJ",
+    "JAJMIJ010000362.1": "JAJMIJ",
+    
+    # NISE
+    "NISE01000342.1": "NISE",
+    "NISE01000343.1": "NISE",
+    "NISE01000344.1": "NISE",
+    "NISE01000345.1": "NISE",
+    "NISE01000346.1": "NISE",
+    "NISE01000347.1": "NISE",
+    "NISE01000348.1": "NISE",
+    "NISE01000349.1": "NISE",
+    "NISE01000350.1": "NISE",
+    "NISE01000351.1": "NISE",
+    "NISE01000352.1": "NISE",
+    "NISE01000353.1": "NISE",
+    "NISE01000354.1": "NISE",
+    "NISE01000355.1": "NISE",
+    "NISE01000356.1": "NISE",
+    "NISE01000357.1": "NISE",
+    "NISE01000358.1": "NISE",
+    "NISE01000359.1": "NISE",
+    "NISE01000360.1": "NISE",
+    "NISE01000361.1": "NISE",
+    
+    # JAKTYT
+    "JAKTYT010000001.1": "JAKTYT",
+    "JAKTYT010000002.1": "JAKTYT",
+    "JAKTYT010000003.1": "JAKTYT",
+    "JAKTYT010000005.1": "JAKTYT",
+    "JAKTYT010000007.1": "JAKTYT",
+    "JAKTYT010000008.1": "JAKTYT",
+    "JAKTYT010000009.1": "JAKTYT",
+    "JAKTYT010000010.1": "JAKTYT",
+    "JAKTYT010000011.1": "JAKTYT",
+    "JAKTYT010000012.1": "JAKTYT",
+    "JAKTYT010000013.1": "JAKTYT",
+    "JAKTYT010000015.1": "JAKTYT",
+    "JAKTYT010000017.1": "JAKTYT",
+    "JAKTYT010000018.1": "JAKTYT",
+    "JAKTYT010000019.1": "JAKTYT",
+    "JAKTYT010000020.1": "JAKTYT",
+    
+    # QBLL
+    "QBLL01000001.1": "QBLL",
+    "QBLL01000002.1": "QBLL",
+    "QBLL01000003.1": "QBLL",
+    "QBLL01000004.1": "QBLL",
+    "QBLL01000005.1": "QBLL",
+    "QBLL01000006.1": "QBLL",
+    "QBLL01000007.1": "QBLL",
+    "QBLL01000008.1": "QBLL",
+    "QBLL01000009.1": "QBLL",
+    "QBLL01000010.1": "QBLL",
+    "QBLL01000011.1": "QBLL",
+    "QBLL01000012.1": "QBLL",
+    "QBLL01000013.1": "QBLL",
+    "QBLL01000014.1": "QBLL",
+    "QBLL01000015.1": "QBLL",
+    "QBLL01000016.1": "QBLL",
+    "QBLL01000017.1": "QBLL",
+    "QBLL01000018.1": "QBLL",
+    "QBLL01000019.1": "QBLL",
+    "QBLL01000020.1": "QBLL",
+    
+    # JAJMIQ
+    "JAJMIQ010000001.1": "JAJMIQ",
+    "JAJMIQ010000002.1": "JAJMIQ",
+    "JAJMIQ010000003.1": "JAJMIQ",
+    "JAJMIQ010000004.1": "JAJMIQ",
+    "JAJMIQ010000005.1": "JAJMIQ",
+    "JAJMIQ010000006.1": "JAJMIQ",
+    "JAJMIQ010000007.1": "JAJMIQ",
+    "JAJMIQ010000008.1": "JAJMIQ",
+    "JAJMIQ010000009.1": "JAJMIQ",
+    "JAJMIQ010000010.1": "JAJMIQ",
+    "JAJMIQ010000011.1": "JAJMIQ",
+    "JAJMIQ010000012.1": "JAJMIQ",
+    "JAJMIQ010000013.1": "JAJMIQ",
+    "JAJMIQ010000014.1": "JAJMIQ",
+    "JAJMIQ010000015.1": "JAJMIQ",
+    "JAJMIQ010000016.1": "JAJMIQ",
+    "JAJMIQ010000017.1": "JAJMIQ",
+    "JAJMIQ010000018.1": "JAJMIQ",
+    "JAJMIQ010000019.1": "JAJMIQ",
+    "JAJMIQ010000020.1": "JAJMIQ",
+    
+    # JAJMHS
+    "JAJMHS010000001.1": "JAJMHS",
+    "JAJMHS010000002.1": "JAJMHS",
+    "JAJMHS010000003.1": "JAJMHS",
+    "JAJMHS010000004.1": "JAJMHS",
+    "JAJMHS010000005.1": "JAJMHS",
+    "JAJMHS010000006.1": "JAJMHS",
+    "JAJMHS010000007.1": "JAJMHS",
+    "JAJMHS010000008.1": "JAJMHS",
+    "JAJMHS010000009.1": "JAJMHS",
+    "JAJMHS010000010.1": "JAJMHS",
+    "JAJMHS010000011.1": "JAJMHS",
+    "JAJMHS010000012.1": "JAJMHS",
+    "JAJMHS010000013.1": "JAJMHS",
+    "JAJMHS010000014.1": "JAJMHS",
+    "JAJMHS010000015.1": "JAJMHS",
+    "JAJMHS010000016.1": "JAJMHS",
+    "JAJMHS010000017.1": "JAJMHS",
+    "JAJMHS010000018.1": "JAJMHS",
+    "JAJMHS010000019.1": "JAJMHS",
+    "JAJMHS010000020.1": "JAJMHS",
+    
+    # JAKTYM
+    "JAKTYM010000001.1": "JAKTYM",
+    "JAKTYM010000002.1": "JAKTYM",
+    "JAKTYM010000003.1": "JAKTYM",
+    "JAKTYM010000004.1": "JAKTYM",
+    "JAKTYM010000005.1": "JAKTYM",
+    "JAKTYM010000006.1": "JAKTYM",
+    "JAKTYM010000007.1": "JAKTYM",
+    "JAKTYM010000008.1": "JAKTYM",
+    "JAKTYM010000009.1": "JAKTYM",
+    "JAKTYM010000010.1": "JAKTYM",
+    "JAKTYM010000011.1": "JAKTYM",
+    "JAKTYM010000012.1": "JAKTYM",
+    "JAKTYM010000013.1": "JAKTYM",
+    "JAKTYM010000014.1": "JAKTYM",
+    "JAKTYM010000015.1": "JAKTYM",
+    "JAKTYM010000016.1": "JAKTYM",
+    "JAKTYM010000017.1": "JAKTYM",
+    "JAKTYM010000018.1": "JAKTYM",
+    "JAKTYM010000019.1": "JAKTYM",
+    "JAKTYM010000020.1": "JAKTYM",
+    
+    # JACBPP
+    "JACBPP010000001.1": "JACBPP",
+    "JACBPP010000002.1": "JACBPP",
+    "JACBPP010000003.1": "JACBPP",
+    "JACBPP010000005.1": "JACBPP",
+    "JACBPP010000011.1": "JACBPP",
+    "JACBPP010000012.1": "JACBPP",
+    "JACBPP010000013.1": "JACBPP",
+    "JACBPP010000014.1": "JACBPP",
+    "JACBPP010000015.1": "JACBPP",
+    "JACBPP010000016.1": "JACBPP",
+    
+    # JAJMCQ
+    "JAJMCQ010000001.1": "JAJMCQ",
+    "JAJMCQ010000002.1": "JAJMCQ",
+    "JAJMCQ010000003.1": "JAJMCQ",
+    "JAJMCQ010000004.1": "JAJMCQ",
+    "JAJMCQ010000005.1": "JAJMCQ",
+    "JAJMCQ010000006.1": "JAJMCQ",
+    "JAJMCQ010000007.1": "JAJMCQ",
+    "JAJMCQ010000008.1": "JAJMCQ",
+    "JAJMCQ010000009.1": "JAJMCQ",
+    "JAJMCQ010000010.1": "JAJMCQ",
+    "JAJMCQ010000011.1": "JAJMCQ",
+    "JAJMCQ010000012.1": "JAJMCQ",
+    "JAJMCQ010000013.1": "JAJMCQ",
+    "JAJMCQ010000014.1": "JAJMCQ",
+    "JAJMCQ010000015.1": "JAJMCQ",
+    "JAJMCQ010000016.1": "JAJMCQ",
+    "JAJMCQ010000017.1": "JAJMCQ",
+    "JAJMCQ010000018.1": "JAJMCQ",
+    "JAJMCQ010000019.1": "JAJMCQ",
+    "JAJMCQ010000020.1": "JAJMCQ",
+    
+    # MTJM
+    "MTJM01000001.1": "MTJM",
+    "MTJM01000002.1": "MTJM",
+    "MTJM01000003.1": "MTJM",
+    "MTJM01000004.1": "MTJM",
+    "MTJM01000005.1": "MTJM",
+    "MTJM01000006.1": "MTJM",
+    "MTJM01000007.1": "MTJM",
+    "MTJM01000008.1": "MTJM",
+    "MTJM01000009.1": "MTJM",
+    "MTJM01000010.1": "MTJM",
+    
+    # JAKTUL
+    "JAKTUL010001563.1": "JAKTUL",
+    "JAKTUL010001572.1": "JAKTUL",
+    "JAKTUL010001573.1": "JAKTUL",
+    "JAKTUL010001574.1": "JAKTUL",
+    "JAKTUL010001575.1": "JAKTUL",
+    "JAKTUL010001576.1": "JAKTUL",
+    "JAKTUL010001577.1": "JAKTUL",
+    "JAKTUL010001578.1": "JAKTUL",
+    "JAKTUL010001579.1": "JAKTUL",
+    "JAKTUL010001580.1": "JAKTUL",
+    "JAKTUL010001581.1": "JAKTUL",
+    "JAKTUL010001582.1": "JAKTUL",
+    "JAKTUL010001583.1": "JAKTUL",
+    "JAKTUL010001584.1": "JAKTUL",
+    "JAKTUL010001585.1": "JAKTUL",
+    "JAKTUL010001586.1": "JAKTUL",
+    "JAKTUL010001587.1": "JAKTUL",
+    "JAKTUL010001589.1": "JAKTUL",
+    "JAKTUL010001590.1": "JAKTUL",
+}
+
+# Step 2: Load your annotation file (Prokka/GFF converted to TSV)
+annotation_file = r"C:\Users\Giorgia\dna\dna2vec-legacy\representative_genomes\GEN_annotation\GEN.tsv"
+df = pd.read_csv(annotation_file, sep="\t")
+
+# Step 3: Map contig IDs to strain
+df['strain'] = df['locus_tag'].map(contig_to_strain)
+
+# Step 4: Save new annotated file
+output_file = r"C:\Users\Giorgia\dna\dna2vec-legacy\genes_with_strain.tsv"
+df.to_csv(output_file, sep="\t", index=False)
+
+print(f"Strain IDs added. Saved to {output_file}")
+import pandas as pd
+
+# Load annotation file
+df = pd.read_csv(r"C:\Users\Giorgia\dna\dna2vec-legacy\representative_genomes\GEN_annotation\GEN.tsv", sep="\t")
+
+# Example contig → strain mapping
+contig_to_strain = {
+    "CP034462.1": "CP",
+    "CP034461.1": "CP",
+    "CP034460.1": "CP",
+    "CP034459.1": "CP",
+    "CP034458.1": "CP",
+    "CP034457.1": "CP",
+    "CP034456.1": "CP",
+    
+    # JAQFWG
+    "JAQFWG010000001.1": "JAQFWG",
+    "JAQFWG010000002.1": "JAQFWG",
+    "JAQFWG010000003.1": "JAQFWG",
+    "JAQFWG010000006.1": "JAQFWG",
+    "JAQFWG010000007.1": "JAQFWG",
+    "JAQFWG010000008.1": "JAQFWG",
+    "JAQFWG010000009.1": "JAQFWG",
+    "JAQFWG010000011.1": "JAQFWG",
+    "JAQFWG010000012.1": "JAQFWG",
+    "JAQFWG010000013.1": "JAQFWG",
+    "JAQFWG010000014.1": "JAQFWG",
+    "JAQFWG010000015.1": "JAQFWG",
+    "JAQFWG010000016.1": "JAQFWG",
+    "JAQFWG010000017.1": "JAQFWG",
+    "JAQFWG010000018.1": "JAQFWG",
+    "JAQFWG010000019.1": "JAQFWG",
+    "JAQFWG010000020.1": "JAQFWG",
+    "JAQFWG010000021.1": "JAQFWG",
+    "JAQFWG010000022.1": "JAQFWG",
+    "JAQFWG010000023.1": "JAQFWG",
+    "JAQFWG010000024.1": "JAQFWG",
+    
+    # JAJMIJ
+    "JAJMIJ010000343.1": "JAJMIJ",
+    "JAJMIJ010000344.1": "JAJMIJ",
+    "JAJMIJ010000345.1": "JAJMIJ",
+    "JAJMIJ010000346.1": "JAJMIJ",
+    "JAJMIJ010000347.1": "JAJMIJ",
+    "JAJMIJ010000348.1": "JAJMIJ",
+    "JAJMIJ010000349.1": "JAJMIJ",
+    "JAJMIJ010000350.1": "JAJMIJ",
+    "JAJMIJ010000351.1": "JAJMIJ",
+    "JAJMIJ010000352.1": "JAJMIJ",
+    "JAJMIJ010000353.1": "JAJMIJ",
+    "JAJMIJ010000354.1": "JAJMIJ",
+    "JAJMIJ010000355.1": "JAJMIJ",
+    "JAJMIJ010000356.1": "JAJMIJ",
+    "JAJMIJ010000357.1": "JAJMIJ",
+    "JAJMIJ010000358.1": "JAJMIJ",
+    "JAJMIJ010000360.1": "JAJMIJ",
+    "JAJMIJ010000361.1": "JAJMIJ",
+    "JAJMIJ010000362.1": "JAJMIJ",
+    
+    # NISE
+    "NISE01000342.1": "NISE",
+    "NISE01000343.1": "NISE",
+    "NISE01000344.1": "NISE",
+    "NISE01000345.1": "NISE",
+    "NISE01000346.1": "NISE",
+    "NISE01000347.1": "NISE",
+    "NISE01000348.1": "NISE",
+    "NISE01000349.1": "NISE",
+    "NISE01000350.1": "NISE",
+    "NISE01000351.1": "NISE",
+    "NISE01000352.1": "NISE",
+    "NISE01000353.1": "NISE",
+    "NISE01000354.1": "NISE",
+    "NISE01000355.1": "NISE",
+    "NISE01000356.1": "NISE",
+    "NISE01000357.1": "NISE",
+    "NISE01000358.1": "NISE",
+    "NISE01000359.1": "NISE",
+    "NISE01000360.1": "NISE",
+    "NISE01000361.1": "NISE",
+    
+    # JAKTYT
+    "JAKTYT010000001.1": "JAKTYT",
+    "JAKTYT010000002.1": "JAKTYT",
+    "JAKTYT010000003.1": "JAKTYT",
+    "JAKTYT010000005.1": "JAKTYT",
+    "JAKTYT010000007.1": "JAKTYT",
+    "JAKTYT010000008.1": "JAKTYT",
+    "JAKTYT010000009.1": "JAKTYT",
+    "JAKTYT010000010.1": "JAKTYT",
+    "JAKTYT010000011.1": "JAKTYT",
+    "JAKTYT010000012.1": "JAKTYT",
+    "JAKTYT010000013.1": "JAKTYT",
+    "JAKTYT010000015.1": "JAKTYT",
+    "JAKTYT010000017.1": "JAKTYT",
+    "JAKTYT010000018.1": "JAKTYT",
+    "JAKTYT010000019.1": "JAKTYT",
+    "JAKTYT010000020.1": "JAKTYT",
+    
+    # QBLL
+    "QBLL01000001.1": "QBLL",
+    "QBLL01000002.1": "QBLL",
+    "QBLL01000003.1": "QBLL",
+    "QBLL01000004.1": "QBLL",
+    "QBLL01000005.1": "QBLL",
+    "QBLL01000006.1": "QBLL",
+    "QBLL01000007.1": "QBLL",
+    "QBLL01000008.1": "QBLL",
+    "QBLL01000009.1": "QBLL",
+    "QBLL01000010.1": "QBLL",
+    "QBLL01000011.1": "QBLL",
+    "QBLL01000012.1": "QBLL",
+    "QBLL01000013.1": "QBLL",
+    "QBLL01000014.1": "QBLL",
+    "QBLL01000015.1": "QBLL",
+    "QBLL01000016.1": "QBLL",
+    "QBLL01000017.1": "QBLL",
+    "QBLL01000018.1": "QBLL",
+    "QBLL01000019.1": "QBLL",
+    "QBLL01000020.1": "QBLL",
+    
+    # JAJMIQ
+    "JAJMIQ010000001.1": "JAJMIQ",
+    "JAJMIQ010000002.1": "JAJMIQ",
+    "JAJMIQ010000003.1": "JAJMIQ",
+    "JAJMIQ010000004.1": "JAJMIQ",
+    "JAJMIQ010000005.1": "JAJMIQ",
+    "JAJMIQ010000006.1": "JAJMIQ",
+    "JAJMIQ010000007.1": "JAJMIQ",
+    "JAJMIQ010000008.1": "JAJMIQ",
+    "JAJMIQ010000009.1": "JAJMIQ",
+    "JAJMIQ010000010.1": "JAJMIQ",
+    "JAJMIQ010000011.1": "JAJMIQ",
+    "JAJMIQ010000012.1": "JAJMIQ",
+    "JAJMIQ010000013.1": "JAJMIQ",
+    "JAJMIQ010000014.1": "JAJMIQ",
+    "JAJMIQ010000015.1": "JAJMIQ",
+    "JAJMIQ010000016.1": "JAJMIQ",
+    "JAJMIQ010000017.1": "JAJMIQ",
+    "JAJMIQ010000018.1": "JAJMIQ",
+    "JAJMIQ010000019.1": "JAJMIQ",
+    "JAJMIQ010000020.1": "JAJMIQ",
+    
+    # JAJMHS
+    "JAJMHS010000001.1": "JAJMHS",
+    "JAJMHS010000002.1": "JAJMHS",
+    "JAJMHS010000003.1": "JAJMHS",
+    "JAJMHS010000004.1": "JAJMHS",
+    "JAJMHS010000005.1": "JAJMHS",
+    "JAJMHS010000006.1": "JAJMHS",
+    "JAJMHS010000007.1": "JAJMHS",
+    "JAJMHS010000008.1": "JAJMHS",
+    "JAJMHS010000009.1": "JAJMHS",
+    "JAJMHS010000010.1": "JAJMHS",
+    "JAJMHS010000011.1": "JAJMHS",
+    "JAJMHS010000012.1": "JAJMHS",
+    "JAJMHS010000013.1": "JAJMHS",
+    "JAJMHS010000014.1": "JAJMHS",
+    "JAJMHS010000015.1": "JAJMHS",
+    "JAJMHS010000016.1": "JAJMHS",
+    "JAJMHS010000017.1": "JAJMHS",
+    "JAJMHS010000018.1": "JAJMHS",
+    "JAJMHS010000019.1": "JAJMHS",
+    "JAJMHS010000020.1": "JAJMHS",
+    
+    # JAKTYM
+    "JAKTYM010000001.1": "JAKTYM",
+    "JAKTYM010000002.1": "JAKTYM",
+    "JAKTYM010000003.1": "JAKTYM",
+    "JAKTYM010000004.1": "JAKTYM",
+    "JAKTYM010000005.1": "JAKTYM",
+    "JAKTYM010000006.1": "JAKTYM",
+    "JAKTYM010000007.1": "JAKTYM",
+    "JAKTYM010000008.1": "JAKTYM",
+    "JAKTYM010000009.1": "JAKTYM",
+    "JAKTYM010000010.1": "JAKTYM",
+    "JAKTYM010000011.1": "JAKTYM",
+    "JAKTYM010000012.1": "JAKTYM",
+    "JAKTYM010000013.1": "JAKTYM",
+    "JAKTYM010000014.1": "JAKTYM",
+    "JAKTYM010000015.1": "JAKTYM",
+    "JAKTYM010000016.1": "JAKTYM",
+    "JAKTYM010000017.1": "JAKTYM",
+    "JAKTYM010000018.1": "JAKTYM",
+    "JAKTYM010000019.1": "JAKTYM",
+    "JAKTYM010000020.1": "JAKTYM",
+    
+    # JACBPP
+    "JACBPP010000001.1": "JACBPP",
+    "JACBPP010000002.1": "JACBPP",
+    "JACBPP010000003.1": "JACBPP",
+    "JACBPP010000005.1": "JACBPP",
+    "JACBPP010000011.1": "JACBPP",
+    "JACBPP010000012.1": "JACBPP",
+    "JACBPP010000013.1": "JACBPP",
+    "JACBPP010000014.1": "JACBPP",
+    "JACBPP010000015.1": "JACBPP",
+    "JACBPP010000016.1": "JACBPP",
+    
+    # JAJMCQ
+    "JAJMCQ010000001.1": "JAJMCQ",
+    "JAJMCQ010000002.1": "JAJMCQ",
+    "JAJMCQ010000003.1": "JAJMCQ",
+    "JAJMCQ010000004.1": "JAJMCQ",
+    "JAJMCQ010000005.1": "JAJMCQ",
+    "JAJMCQ010000006.1": "JAJMCQ",
+    "JAJMCQ010000007.1": "JAJMCQ",
+    "JAJMCQ010000008.1": "JAJMCQ",
+    "JAJMCQ010000009.1": "JAJMCQ",
+    "JAJMCQ010000010.1": "JAJMCQ",
+    "JAJMCQ010000011.1": "JAJMCQ",
+    "JAJMCQ010000012.1": "JAJMCQ",
+    "JAJMCQ010000013.1": "JAJMCQ",
+    "JAJMCQ010000014.1": "JAJMCQ",
+    "JAJMCQ010000015.1": "JAJMCQ",
+    "JAJMCQ010000016.1": "JAJMCQ",
+    "JAJMCQ010000017.1": "JAJMCQ",
+    "JAJMCQ010000018.1": "JAJMCQ",
+    "JAJMCQ010000019.1": "JAJMCQ",
+    "JAJMCQ010000020.1": "JAJMCQ",
+    
+    # MTJM
+    "MTJM01000001.1": "MTJM",
+    "MTJM01000002.1": "MTJM",
+    "MTJM01000003.1": "MTJM",
+    "MTJM01000004.1": "MTJM",
+    "MTJM01000005.1": "MTJM",
+    "MTJM01000006.1": "MTJM",
+    "MTJM01000007.1": "MTJM",
+    "MTJM01000008.1": "MTJM",
+    "MTJM01000009.1": "MTJM",
+    "MTJM01000010.1": "MTJM",
+    
+    # JAKTUL
+    "JAKTUL010001563.1": "JAKTUL",
+    "JAKTUL010001572.1": "JAKTUL",
+    "JAKTUL010001573.1": "JAKTUL",
+    "JAKTUL010001574.1": "JAKTUL",
+    "JAKTUL010001575.1": "JAKTUL",
+    "JAKTUL010001576.1": "JAKTUL",
+    "JAKTUL010001577.1": "JAKTUL",
+    "JAKTUL010001578.1": "JAKTUL",
+    "JAKTUL010001579.1": "JAKTUL",
+    "JAKTUL010001580.1": "JAKTUL",
+    "JAKTUL010001581.1": "JAKTUL",
+    "JAKTUL010001582.1": "JAKTUL",
+    "JAKTUL010001583.1": "JAKTUL",
+    "JAKTUL010001584.1": "JAKTUL",
+    "JAKTUL010001585.1": "JAKTUL",
+    "JAKTUL010001586.1": "JAKTUL",
+    "JAKTUL010001587.1": "JAKTUL",
+    "JAKTUL010001589.1": "JAKTUL",
+    "JAKTUL010001590.1": "JAKTUL",
+}
+
+# Add contig column if your locus_tag contains contig info
+# Example: locus_tag = ICLPPAIG_00001 might belong to CP034462.1
+# If locus_tag mapping exists:
+df["contig"] = df["locus_tag"].apply(lambda x: "CP034462.1")  # replace with actual logic
+
+# Map contig → strain
+df["strain"] = df["contig"].map(contig_to_strain)
+
+# Check
+print(df.head())
+print(df["strain"].unique())
+
+from Bio import SeqIO
+import pandas as pd
+from pathlib import Path
+
+gff_or_gbk = Path("C:/Users/Giorgia/dna/dna2vec-legacy/representative_genomes/GEN_annotation/GEN.gbk")  # or .gbff/.gff
+rows = []
+
+for record in SeqIO.parse(gff_or_gbk, "genbank"):  # use "genbank" or "embl"; for GFF, switch parser accordingly
+    # record-level strain
+    rec_strain = record.annotations.get("source", "")
+    # If qualifiers exist at record level
+    rec_features = getattr(record, "features", [])
+    for feat in rec_features:
+        if feat.type == "source":
+            rec_strain = feat.qualifiers.get("strain", [rec_strain])[0]
+
+    for feat in record.features:
+        if feat.type in ("CDS", "gene"):
+            lt = feat.qualifiers.get("locus_tag", [None])[0]
+            if lt:
+                prefix = lt.split("_")[0]  # e.g., ICLPPAIG
+                rows.append({"locus_tag": lt, "prefix": prefix, "strain": rec_strain})
+
+df = pd.DataFrame(rows).dropna()
+prefix_map = df.groupby("prefix")["strain"].agg(lambda s: s.dropna().iloc[0] if len(s.dropna()) else None).reset_index()
+print(prefix_map)
+
+import pandas as pd
+import glob
+
+prokka_dirs = glob.glob("/mnt/c/Users/Giorgia/dna/prokka_*/")  # all Prokka output folders
+
+all_annotations = []
+
+for d in prokka_dirs:
+    strain = d.split("_")[-1]  # extract strain from folder name
+    tsv_file = f"{d}{strain}.tsv"
+    df = pd.read_csv(tsv_file, sep="\t")
+    df["strain"] = strain
+    all_annotations.append(df)
+
+# Combine all strains
+full_df = pd.concat(all_annotations, ignore_index=True)
+full_df.to_csv("/mnt/c/Users/Giorgia/dna/all_strains_annotation.csv", index=False)
+print(full_df.head())
