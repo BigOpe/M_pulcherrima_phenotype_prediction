@@ -16,3 +16,10 @@ reproducibility and transparency of the analysis pipeline.
 A fully reproducible pipeline (environment definition, execution scripts,
 and documentation) is currently being implemented.
 
+## Environment setup
+
+To create the software environment used in this project:
+
+```bash
+conda env create -f environment.yml
+conda activate mpulch_ml
