@@ -11,7 +11,7 @@ from sklearn.metrics import r2_score
 from scipy.stats import pearsonr
 from adjustText import adjust_text
 
-# -----------------------------
+# -------------------------
 # Load CSV
 # -----------------------------
 csv_path = r"C:\Users\Giorgia\dna\dna2vec-legacy\Scripts\phen.csv"
