@@ -33,9 +33,13 @@ Phenotypic tables, contig lists, or annotation summaries.
 environment.yml
 Conda environment file for full reproducibility.
 
-README.md
-Project overview and instructions.
+## Environment setup
 
+To create the software environment used in this project:
+
+```bash
+conda env create -f environment.yml
+conda activate mpulch_ml
 .gitignore
 Ensures virtual-environment files and binaries are excluded.
 
@@ -104,23 +108,5 @@ For questions or collaboration inquiries, please contact:
 Bioinformatics and Molecular Biology Researcher  
 Email: [ofadesuyi@unite.it]
 
-## Project status
-This repository is under active reorganization to improve
-reproducibility and transparency of the analysis pipeline.
 
-## Current scope
-- Exploratory machine-learning analysis
-- Phenotypic trait prediction
-- Integration of genomic features (k-mer embeddings, gene annotation)
 
-## Reproducibility
-A fully reproducible pipeline (environment definition, execution scripts,
-and documentation) is currently being implemented.
-
-## Environment setup
-
-To create the software environment used in this project:
-
-```bash
-conda env create -f environment.yml
-conda activate mpulch_ml
