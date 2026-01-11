@@ -1,3 +1,12 @@
+# Integrative Phenotypic and Genomic Analysis of *Metschnikowia pulcherrima*
+
+This repository contains the full computational workflow supporting the manuscript:
+
+**“Integrative Analysis of Phenotypic Traits and Genomic Features in *Metschnikowia pulcherrima* Using Machine Learning.”**
+
+The study integrates phenotypic trait profiling, exploratory genome annotation, and machine-learning-based phenotype–phenotype predictive modeling to characterize structured phenotypic relationships among 15 *M. pulcherrima* strains.
+
+---
 Structured Phenotypic Architecture and Functional Genomic Signatures in Metschnikowia pulcherrima
 This repository contains the complete analysis pipeline used in the study:
 
@@ -19,15 +28,11 @@ A past–present–future phenotypic projection model (2015–2035)
 
 The overarching goal is to characterize structured phenotypic relationships in M. pulcherrima and provide a reproducible framework for exploratory genotype–phenotype interpretation.
 
-📁 Repository Structure
-Code
+## 📁 Repository Structure
 analysis/
     Core Python scripts for phenotypic modelling, PCA, projections, and figure generation.
 
-dna2vec-legacy/
-    Pretrained dna2vec embeddings used for exploratory sequence-level PCA.
-
-data/  (if added)
+data/ 
     Phenotypic tables, contig lists, or annotation summaries.
 
 environment.yml
@@ -35,20 +40,29 @@ environment.yml
 
 .gitignore
     Ensures virtual-environment files and binaries are excluded.
-⚙️ Environment Setup
-Create the software environment used in this project:
 
 bash
 conda env create -f environment.yml
 conda activate mpulch_ml
-This installs all required packages (NumPy, pandas, scikit‑learn, seaborn, matplotlib, networkx, etc.).
+.gitignore
+Ensures virtual-environment files and binaries are excluded.
 
-▶️ How to Reproduce the Analysis
-1. Create the Conda environment
-bash
+
+---
+
+## ▶️ How to Reproduce the Analysis
+
+### **1. Create the Conda environment**
+
 conda env create -f environment.yml
 conda activate mpulcherrima_env
-2. Run the Analysis Pipeline
+
+
+This installs all required packages (NumPy, pandas, scikit‑learn, seaborn, matplotlib, networkx, etc.).
+
+---
+
+### **2. Run the Analysis Pipeline
 Each script in analysis/ corresponds to a specific component of the study:
 
 start.py — main pipeline entry point
@@ -85,11 +99,20 @@ Machine‑learning regression (PLS, Random Forest)
 
 Phenotypic divergence projection (2015–2035)
 
-📊 Data Availability
-All phenotypic data, annotation summaries, and analysis scripts required to reproduce the figures and results are included in this repository.
-The full computational workflow is reproducible using the provided environment.yml.
+Figure and table generation
 
-🧪 Reproducibility Notes
+----
+
+## 📊 Data Availability
+
+All phenotypic data, annotation summaries, and analysis scripts required to reproduce the figures and results are included in this repository.
+
+The full computational workflow is reproducible using the provided `environment.yml`.
+
+---
+
+## 🧪 Reproducibility Notes
+
 All analyses were performed in Python using a fully specified Conda environment.
 
 No virtual‑environment files or binaries are included in the repository.
@@ -104,9 +127,12 @@ Preprocessing steps are confined within cross‑validation loops to prevent data
 
 Genomic analyses are exploratory and not used as predictors in machine‑learning models.
 
-📬 Contact
-For questions or collaboration inquiries:
+---
 
-Opeyemi Adesuyi  
-Bioinformatics and Molecular Biology Researcher
-Email: ofadesuyi@unite.it
+## 📬 Contact
+
+For questions or collaboration inquiries, please contact:
+
+**Opeyemi Adesuyi**  
+Bioinformatics and Molecular Biology Researcher  
+Email: [ofadesuyi@unite.it]
