@@ -65,19 +65,12 @@ This installs all required packages (NumPy, pandas, scikit‑learn, seaborn, mat
 ### **2. Run the Analysis Pipeline
 Each script in analysis/ corresponds to a specific component of the study:
 
-start.py — main pipeline entry point
 
-animated_pca_.py — PCA projection and animation
+check.py — PCA projection and animation, genome annotation parsing
 
-gene.py / prok.py — genome annotation parsing
+phen.py — regression modelling (PLS, Random Forest), assembly parsing, QC and preprocessing
 
-rel.py — regression modelling (PLS, Random Forest)
-
-contig.py — assembly parsing
-
-checking.py — QC and preprocessing
-
-che.py, chh.py, etc. — supporting analysis modules
+prok.py — supporting analysis modules
 
 You may run scripts individually, or execute the full workflow using:
 
