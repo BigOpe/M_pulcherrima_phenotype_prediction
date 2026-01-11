@@ -70,7 +70,7 @@ from Bio import SeqIO
 import os
 
 # Input FASTA file
-fasta_file = "C:/Users/Giorgia/dna/dna2vec-legacy/gen.fasta"
+fasta_file = r"C:\Users\Giorgia\Documents\M_pulcherrima_phenotype_prediction\data\gen.fasta"
 
 # Output directory
 output_dir = "C:/Users/Giorgia/dna/dna2vec-legacy/representative_genomes/"
@@ -173,7 +173,7 @@ df["phenotypic_trait"].value_counts()
 import pandas as pd
 
 # Load Prokka annotation
-df = pd.read_csv(r"C:\Users\Giorgia\dna\dna2vec-legacy\representative_genomes\GEN_annotation\GEN.tsv", sep="\t")
+df = pd.read_csv(r"C:\Users\Giorgia\Documents\M_pulcherrima_phenotype_prediction\data\GEN_marker_genes.tsv", sep="\t")
 
 # Example: get ethanol tolerance-related genes
 ethanol_genes = df[df['product'].str.contains("alcohol dehydrogenase", case=False, na=False)]
