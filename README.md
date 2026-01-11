@@ -43,7 +43,6 @@ conda activate mpulch_ml
 .gitignore
 Ensures virtual-environment files and binaries are excluded.
 
-Code
 
 ---
 
@@ -54,7 +53,6 @@ Code
 conda env create -f environment.yml
 conda activate mpulcherrima_env
 
-Code
 
 This installs all required packages (NumPy, pandas, scikit‑learn, seaborn, matplotlib, networkx, etc.).
 
@@ -76,7 +74,7 @@ Run any script individually:
 
 python analysis/start.py
 
-Code
+
 
 or execute scripts step‑by‑step depending on the analysis you want to reproduce.
 
