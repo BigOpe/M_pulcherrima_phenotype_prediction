@@ -405,9 +405,9 @@ output_path = "/mnt/data/strain_contig_summary.csv"
 df_summary.to_csv(output_path, index=False)
 
 print("Aggregated contig lengths by strain and saved summary to strain_contig_summary.csv")
-                    
-                    if locus_tag in locus_tags_list:
-                        writer.writerow([strain, contig_id, locus_tag, product, functional_category])
+
+if locus_tag in locus_tags_list:
+    writer.writerow([strain, contig_id, locus_tag, product, functional_category])
 
 print(f"Mapping complete! Output saved to {output_file}")
 
