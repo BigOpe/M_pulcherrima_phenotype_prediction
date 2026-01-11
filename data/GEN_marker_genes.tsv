@@ -1,0 +1,854 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product	strain
+ICLPPAIG_00144	CDS	1554	niaP_1		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_00246	CDS	1935	dnaK_1			Chaperone protein DnaK	GEN
+ICLPPAIG_00328	CDS	1008	ydiB_1	1.1.1.282	COG0169	Quinate/shikimate dehydrogenase	GEN
+ICLPPAIG_00459	CDS	909		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_00460	CDS	789		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_00543	CDS	1545	amtB_1		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_00669	CDS	1422	nuoD_1	7.1.1.-	COG0649	NADH-quinone oxidoreductase subunit D	GEN
+ICLPPAIG_00671	CDS	891	dnaJ_1			Chaperone protein DnaJ	GEN
+ICLPPAIG_00720	CDS	1467	bamA_1			Outer membrane protein assembly factor BamA	GEN
+ICLPPAIG_00764	CDS	1038	iolG_1	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_00817	CDS	1377	dadA_1	1.4.99.-		D-amino acid dehydrogenase	GEN
+ICLPPAIG_00865	CDS	1734	lldD_1	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_00898	CDS	1491	nanT_1			Sialic acid transporter NanT	GEN
+ICLPPAIG_00913	CDS	1890	sdhA_1	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_00991	CDS	1293	sucB_1	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	GEN
+ICLPPAIG_01002	CDS	2673	clpB1_1		COG0542	Chaperone protein ClpB 1	GEN
+ICLPPAIG_01015	CDS	2112	betA_1	1.2.1.8		Oxygen-dependent choline dehydrogenase	GEN
+ICLPPAIG_01054	CDS	1617	niaP_2		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_01242	CDS	2262	clcA_1			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_01313	CDS	1095	adhA_1	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_01315	CDS	1086	adhA_2	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_01645	CDS	1458	vdh_1	1.2.1.67		Vanillin dehydrogenase	GEN
+ICLPPAIG_01656	CDS	486	dnaJ_2			Chaperone protein DnaJ	GEN
+ICLPPAIG_01737	CDS	1356	dnaJ_3		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_01785	CDS	858	gdh_1	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_02031	CDS	1539	niaP_3		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_02236	CDS	3111	gcvP_1	1.4.4.2	COG0403	Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_02257	CDS	1047	adh_1	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_02431	CDS	1254	asd2	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase 2	GEN
+ICLPPAIG_02647	CDS	1134		1.17.1.9		Formate dehydrogenase	GEN
+ICLPPAIG_02648	CDS	783	sdhB_1	1.3.5.1	COG0479	Succinate dehydrogenase iron-sulfur subunit	GEN
+ICLPPAIG_02685	CDS	951	dnaJ_4			Chaperone protein DnaJ	GEN
+ICLPPAIG_02818	CDS	1563	dnaJ_5			Chaperone protein DnaJ	GEN
+ICLPPAIG_02939	CDS	972	hcaB_1	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_03000	CDS	1863	dnaJ_6			Chaperone protein DnaJ	GEN
+ICLPPAIG_03028	CDS	1728	iolT_1		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_03048	CDS	1278	dnaJ_7			Chaperone protein DnaJ	GEN
+ICLPPAIG_03197	CDS	1653	niaP_4		COG0477	Putative niacin/nicotinamide transporter NiaP	GEN
+ICLPPAIG_03290	CDS	1524	glcP_1		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_03471	CDS	2106	htpG		COG0326	Chaperone protein HtpG	GEN
+ICLPPAIG_03712	CDS	1236	yoaB		COG2814	Putative transporter YoaB	GEN
+ICLPPAIG_03715	CDS	840	qorB	1.6.5.2	COG0702	Quinone oxidoreductase 2	GEN
+ICLPPAIG_03732	CDS	1326	exuT		COG2271	Hexuronate transporter	GEN
+ICLPPAIG_03744	CDS	1413	proP		COG0477	Proline/betaine transporter	GEN
+ICLPPAIG_03762	CDS	1323	rclA		COG1249	putative pyridine nucleotide-disulfide oxidoreductase RclA	GEN
+ICLPPAIG_03766	CDS	540	ywqN	1.-.-.-	COG0655	Putative NAD(P)H-dependent FMN-containing oxidoreductase YwqN	GEN
+ICLPPAIG_03808	CDS	771	mntB		COG1108	Manganese transport system membrane protein MntB	GEN
+ICLPPAIG_03819	CDS	1728	bmrA	7.6.2.-	COG1132	Multidrug resistance ABC transporter ATP-binding/permease protein BmrA	GEN
+ICLPPAIG_03851	CDS	1209	setA		COG2814	Sugar efflux transporter A	GEN
+ICLPPAIG_03865	CDS	927	yciC_1	3.6.5.-	COG0523	Zinc chaperone YciC	GEN
+ICLPPAIG_03866	CDS	909	ydhF	1.-.-.-	COG4989	Oxidoreductase YdhF	GEN
+ICLPPAIG_03868	CDS	948	mdh_1	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_03869	CDS	1557	ybhI		COG0471	Inner membrane protein YbhI	GEN
+ICLPPAIG_03896	CDS	816			COG0428	Zinc transporter ZIPB	GEN
+ICLPPAIG_03900	CDS	1518	egtUBC		COG1174	putative ergothioneine transporter EgtUBC	GEN
+ICLPPAIG_03904	CDS	1506	dtpT			Di-/tripeptide transporter	GEN
+ICLPPAIG_04041	CDS	1008	gapA1	1.2.1.12		Glyceraldehyde-3-phosphate dehydrogenase 1	GEN
+ICLPPAIG_04048	CDS	234	secG		COG1314	putative protein-export membrane protein SecG	GEN
+ICLPPAIG_04130	CDS	1065		1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase	GEN
+ICLPPAIG_04134	CDS	1209		1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase	GEN
+ICLPPAIG_04152	CDS	738		1.3.1.6		NADH:fumarate oxidoreductase	GEN
+ICLPPAIG_04156	CDS	1287	gluD	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_04175	CDS	2592	clpB_1			Chaperone protein ClpB	GEN
+ICLPPAIG_04199	CDS	1401	mgtE		COG2239	Magnesium transporter MgtE	GEN
+ICLPPAIG_04200	CDS	1845	kefB			Glutathione-regulated potassium-efflux system protein KefB	GEN
+ICLPPAIG_04224	CDS	357	catD_1	1.-.-.-	COG2259	Putative oxidoreductase CatD	GEN
+ICLPPAIG_04262	CDS	807	ecfT_1			Energy-coupling factor transporter transmembrane protein EcfT	GEN
+ICLPPAIG_04280	CDS	1113	pdhA	1.2.4.1		Pyruvate dehydrogenase E1 component subunit alpha	GEN
+ICLPPAIG_04281	CDS	978	pdhB	1.2.4.1		Pyruvate dehydrogenase E1 component subunit beta	GEN
+ICLPPAIG_04282	CDS	1314	pdhC_1	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_04283	CDS	1407	pdhD	1.8.1.4		Dihydrolipoyl dehydrogenase	GEN
+ICLPPAIG_04295	CDS	1347	mntH_1			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_04315	CDS	1239	hisD_1	1.1.1.23	COG0141	Histidinol dehydrogenase	GEN
+ICLPPAIG_04348	CDS	468	sdhC		COG2009	Succinate dehydrogenase cytochrome b558 subunit	GEN
+ICLPPAIG_04349	CDS	1767	sdhA_2	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_04476	CDS	1761	korA	1.2.7.3	COG0674	2-oxoglutarate oxidoreductase subunit KorA	GEN
+ICLPPAIG_04490	CDS	1674	glpD_1	1.1.5.3		Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_04509	CDS	864	yadG		COG1131	putative ABC transporter ATP-binding protein YadG	GEN
+ICLPPAIG_04518	CDS	1281	hom	1.1.1.3	COG0460	Homoserine dehydrogenase	GEN
+ICLPPAIG_04540	CDS	1641	opuD_1		COG1292	Glycine betaine transporter OpuD	GEN
+ICLPPAIG_04557	CDS	1092	tyrC	1.3.1.43	COG0287	Cyclohexadienyl dehydrogenase	GEN
+ICLPPAIG_04585	CDS	990	asd_1	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase	GEN
+ICLPPAIG_04608	CDS	1287	odhB	2.3.1.61		Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	GEN
+ICLPPAIG_04609	CDS	2805	odhA	1.2.4.2		2-oxoglutarate dehydrogenase E1 component	GEN
+ICLPPAIG_04632	CDS	705				queuosine precursor transporter	GEN
+ICLPPAIG_04670	CDS	1074	gpsA_1	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_04681	CDS	549	ribU			Riboflavin transporter RibU	GEN
+ICLPPAIG_04695	CDS	1248	zwf_1	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase	GEN
+ICLPPAIG_04698	CDS	1410	gnd_1	1.1.1.44		6-phosphogluconate dehydrogenase, decarboxylating	GEN
+ICLPPAIG_04702	CDS	1293	pdhC_2	2.3.1.12		Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_04703	CDS	1020	bfmBAB_1	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_04704	CDS	1002	bfmBAA	1.2.4.4	COG1071	2-oxoisovalerate dehydrogenase subunit alpha	GEN
+ICLPPAIG_04705	CDS	1428		1.8.1.4		Dihydrolipoyl dehydrogenase	GEN
+ICLPPAIG_04725	CDS	1473	gcvPB	1.4.4.2		putative glycine dehydrogenase (decarboxylating) subunit 2	GEN
+ICLPPAIG_04726	CDS	1350	gcvPA	1.4.4.2		putative glycine dehydrogenase (decarboxylating) subunit 1	GEN
+ICLPPAIG_04744	CDS	831	znuB		COG1108	High-affinity zinc uptake system membrane protein ZnuB	GEN
+ICLPPAIG_04768	CDS	1137	dnaJ_8			Chaperone protein DnaJ	GEN
+ICLPPAIG_04769	CDS	1836	dnaK_2			Chaperone protein DnaK	GEN
+ICLPPAIG_04772	CDS	966	hemW		COG0635	Heme chaperone HemW	GEN
+ICLPPAIG_04785	CDS	756	aroE_1	1.1.1.25	COG0169	Shikimate dehydrogenase (NADP(+))	GEN
+ICLPPAIG_04789	CDS	1236	mntH_2			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_04867	CDS	1026	gapA2	1.2.1.12		Glyceraldehyde-3-phosphate dehydrogenase 2	GEN
+ICLPPAIG_04873	CDS	1269	icd_1	1.1.1.42		Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_04875	CDS	1362	cycA_1		COG1113	D-serine/D-alanine/glycine transporter	GEN
+ICLPPAIG_04883	CDS	1407	guaB_1	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_04887	CDS	1119	ald2	1.4.1.1		Alanine dehydrogenase 2	GEN
+ICLPPAIG_04888	CDS	501				Putative universal stress protein	GEN
+ICLPPAIG_04893	CDS	777	yfcA		COG0730	putative membrane transporter protein YfcA	GEN
+ICLPPAIG_04903	CDS	1596	serA_1	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase	GEN
+ICLPPAIG_04951	CDS	1062	putB	1.5.5.2	COG0506	Proline dehydrogenase 2	GEN
+ICLPPAIG_04989	CDS	741	ecsA		COG1131	ABC-type transporter ATP-binding protein EcsA	GEN
+ICLPPAIG_05011	CDS	1461	mltF			Membrane-bound lytic murein transglycosylase F	GEN
+ICLPPAIG_05021	CDS	468	sepA_1			Multidrug resistance efflux pump SepA	GEN
+ICLPPAIG_05022	CDS	1332	sdrM			Multidrug efflux pump SdrM	GEN
+ICLPPAIG_05041	CDS	1008				Zinc-type alcohol dehydrogenase-like protein	GEN
+ICLPPAIG_05042	CDS	1008	yfmJ_1	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_05061	CDS	807	ecfT_2		COG0619	Energy-coupling factor transporter transmembrane protein EcfT	GEN
+ICLPPAIG_05062	CDS	861	ecfA2	7.-.-.-		Energy-coupling factor transporter ATP-binding protein EcfA2	GEN
+ICLPPAIG_05063	CDS	807	ecfA1	7.-.-.-	COG1122	Energy-coupling factor transporter ATP-binding protein EcfA1	GEN
+ICLPPAIG_05097	CDS	792	gdh_2	1.1.1.47	COG1028	Glucose 1-dehydrogenase	GEN
+ICLPPAIG_05101	CDS	3165	acrB			multidrug efflux RND transporter permease subunit AcrB	GEN
+ICLPPAIG_05106	CDS	1206	yfcJ			putative MFS-type transporter YfcJ	GEN
+ICLPPAIG_05122	CDS	552	bioY		COG1268	Biotin transporter BioY	GEN
+ICLPPAIG_05125	CDS	1146	ydbM	1.3.99.-	COG1960	Putative acyl-CoA dehydrogenase YdbM	GEN
+ICLPPAIG_05130	CDS	912			COG4413	Urea transporter	GEN
+ICLPPAIG_05145	CDS	1071	odh	1.5.1.28		Opine dehydrogenase	GEN
+ICLPPAIG_05148	CDS	315	gdnD		COG2076	putative guanidinium efflux system subunit GdnD	GEN
+ICLPPAIG_05149	CDS	960		1.1.1.-		Putative 2-hydroxyacid dehydrogenase	GEN
+ICLPPAIG_05154	CDS	2955		1.17.1.9		Putative formate dehydrogenase	GEN
+ICLPPAIG_05164	CDS	1398	thrP		COG1113	Threonine/serine transporter ThrP	GEN
+ICLPPAIG_05169	CDS	927	panS			Pantothenate precursors transporter PanS	GEN
+ICLPPAIG_05177	CDS	882	yghA_1	1.-.-.-	COG1028	putative oxidoreductase YghA	GEN
+ICLPPAIG_05179	CDS	1182	dauA		COG0659	C4-dicarboxylic acid transporter DauA	GEN
+ICLPPAIG_05209	CDS	648	aaeA			p-hydroxybenzoic acid efflux pump subunit AaeA	GEN
+ICLPPAIG_05212	CDS	1413	tcaA_1			Membrane-associated protein TcaA	GEN
+ICLPPAIG_05216	CDS	1059			COG0577	putative ABC transporter permease	GEN
+ICLPPAIG_05222	CDS	1479	mqo1	1.1.5.4		putative malate:quinone oxidoreductase 1	GEN
+ICLPPAIG_05234	CDS	996	yhfP	1.6.5.-	COG0604	Putative quinone oxidoreductase YhfP	GEN
+ICLPPAIG_05243	CDS	756	bdhA	1.1.1.30	COG1028	D-beta-hydroxybutyrate dehydrogenase	GEN
+ICLPPAIG_05246	CDS	780	gdh_3	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_05255	CDS	432	ydaG		COG3871	General stress protein 26	GEN
+ICLPPAIG_05262	CDS	1164	narT		COG2223	putative nitrate transporter NarT	GEN
+ICLPPAIG_05277	CDS	819	nirC		COG2116	Nitrite transporter NirC	GEN
+ICLPPAIG_05286	CDS	783			COG0834	putative amino-acid ABC transporter-binding protein	GEN
+ICLPPAIG_05288	CDS	1413	mdtP_1		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_05291	CDS	894	mneS		COG0053	Manganese efflux system protein MneS	GEN
+ICLPPAIG_05301	CDS	1404	cycA_2		COG1113	D-serine/D-alanine/glycine transporter	GEN
+ICLPPAIG_05303	CDS	1830	kimA		COG0531	Potassium transporter KimA	GEN
+ICLPPAIG_05306	CDS	813	yidC_1			Membrane protein insertase YidC	GEN
+ICLPPAIG_05308	CDS	474	yagU		COG3477	Inner membrane protein YagU	GEN
+ICLPPAIG_05320	CDS	1701	aimA		COG0531	Glutamate/serine transporter AimA	GEN
+ICLPPAIG_05322	CDS	1212	pbuE_1		COG2814	Purine efflux pump PbuE	GEN
+ICLPPAIG_05331	CDS	1293	arsB		COG1055	Arsenical pump membrane protein	GEN
+ICLPPAIG_05335	CDS	819	budC	1.1.1.-		Meso-2,3-butanediol dehydrogenase	GEN
+ICLPPAIG_05340	CDS	696		1.-.-.-		putative oxidoreductase	GEN
+ICLPPAIG_05345	CDS	267	pdhC_3	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_05357	CDS	1422	gntT		COG2610	High-affinity gluconate transporter	GEN
+ICLPPAIG_05365	CDS	1275	gudP		COG2271	putative galactarate/D-glucarate transporter GudP	GEN
+ICLPPAIG_05367	CDS	612	uptA		COG0586	Undecaprenyl phosphate transporter A	GEN
+ICLPPAIG_05371	CDS	1428	aldA_1	1.2.1.22	COG1012	Lactaldehyde dehydrogenase	GEN
+ICLPPAIG_05375	CDS	1494	aldA_2	1.2.1.3		Putative aldehyde dehydrogenase AldA	GEN
+ICLPPAIG_05377	CDS	993	ldhD_1	1.1.1.28		D-lactate dehydrogenase	GEN
+ICLPPAIG_05398	CDS	1056	adh_2	1.1.1.1	COG1063	Alcohol dehydrogenase	GEN
+ICLPPAIG_05414	CDS	1545	rocA_1	1.2.1.88		1-pyrroline-5-carboxylate dehydrogenase	GEN
+ICLPPAIG_05416	CDS	798	ydaD	1.-.-.-	COG1028	General stress protein 39	GEN
+ICLPPAIG_05419	CDS	207	copZ		COG2608	Copper chaperone CopZ	GEN
+ICLPPAIG_05420	CDS	999	ldhD_2	1.1.1.28		D-lactate dehydrogenase	GEN
+ICLPPAIG_05431	CDS	1374	cycA_3		COG1113	D-serine/D-alanine/glycine transporter	GEN
+ICLPPAIG_05433	CDS	945	fgd_1	1.1.98.2		F420-dependent glucose-6-phosphate dehydrogenase	GEN
+ICLPPAIG_05439	CDS	705	cpnA	1.1.1.163		Cyclopentanol dehydrogenase	GEN
+ICLPPAIG_05443	CDS	1068	pyrD_1	1.3.5.2	COG0167	Dihydroorotate dehydrogenase (quinone)	GEN
+ICLPPAIG_05450	CDS	1356	tcaA_2			Membrane-associated protein TcaA	GEN
+ICLPPAIG_05452	CDS	1086	tcaA_3			Membrane-associated protein TcaA	GEN
+ICLPPAIG_05460	CDS	1017	ldh2	1.1.1.27		L-lactate dehydrogenase 2	GEN
+ICLPPAIG_05480	CDS	1494	mqo2	1.1.5.4		putative malate:quinone oxidoreductase 2	GEN
+ICLPPAIG_05487	CDS	1710	betA_2	1.1.99.1		Oxygen-dependent choline dehydrogenase	GEN
+ICLPPAIG_05488	CDS	1491	gbsA	1.2.1.8	COG1012	Betaine aldehyde dehydrogenase	GEN
+ICLPPAIG_05490	CDS	1605	opuD_2		COG1292	Glycine betaine transporter OpuD	GEN
+ICLPPAIG_05491	CDS	1263	dcuA		COG2704	C4-dicarboxylate transporter DcuA	GEN
+ICLPPAIG_05498	CDS	618	sirC	1.3.1.76		Precorrin-2 dehydrogenase	GEN
+ICLPPAIG_05507	CDS	753	yxdL		COG1136	ABC transporter ATP-binding protein YxdL	GEN
+ICLPPAIG_05549	CDS	1170	ydhP		COG2814	Inner membrane transport protein YdhP	GEN
+ICLPPAIG_05567	CDS	1191		1.-.-.-		putative oxidoreductase	GEN
+ICLPPAIG_05580	CDS	1308	yflS		COG0471	Putative malate transporter YflS	GEN
+ICLPPAIG_05583	CDS	1008	nixA		COG3376	Nickel transporter NixA	GEN
+ICLPPAIG_05586	CDS	1050			COG0577	putative ABC transporter permease	GEN
+ICLPPAIG_05587	CDS	663	yknY_1	7.6.2.-	COG1136	putative ABC transporter ATP-binding protein YknY	GEN
+ICLPPAIG_05609	CDS	630			COG1136	putative ABC transporter ATP-binding protein	GEN
+ICLPPAIG_05614	CDS	3033	ard	1.3.1.125		NADH:acrylate oxidoreductase	GEN
+ICLPPAIG_05621	CDS	357	catD_2	1.-.-.-	COG2259	Putative oxidoreductase CatD	GEN
+ICLPPAIG_05659	CDS	726	ybhF		COG1131	putative multidrug ABC transporter ATP-binding protein YbhF	GEN
+ICLPPAIG_05660	CDS	1077	ybhR		COG0842	putative multidrug ABC transporter permease YbhR	GEN
+ICLPPAIG_05662	CDS	1005				Zinc-type alcohol dehydrogenase-like protein	GEN
+ICLPPAIG_05669	CDS	1026		1.17.1.9		Formate dehydrogenase	GEN
+ICLPPAIG_05674	CDS	534	niaP_5		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_05688	CDS	702			COG1136	putative ABC transporter ATP-binding protein	GEN
+ICLPPAIG_05690	CDS	645	azoR1	1.6.5.-	COG1182	FMN-dependent NADH:quinone oxidoreductase 1	GEN
+ICLPPAIG_05691	CDS	1371	citN		COG2851	Citrate transporter	GEN
+ICLPPAIG_05710	CDS	1449	aldY	1.2.1.3	COG1012	Putative aldehyde dehydrogenase AldY	GEN
+ICLPPAIG_05717	CDS	570	eamB		COG1280	Cysteine/O-acetylserine efflux protein	GEN
+ICLPPAIG_05744	CDS	693	ygaZ		COG1296	Inner membrane protein YgaZ	GEN
+ICLPPAIG_05765	CDS	687	yknY_2	7.6.2.-	COG1136	putative ABC transporter ATP-binding protein YknY	GEN
+ICLPPAIG_05767	CDS	468	fabG3	1.1.1.53	COG1028	3-alpha-(or 20-beta)-hydroxysteroid dehydrogenase	GEN
+ICLPPAIG_05802	CDS	843		1.-.-.-	COG1028	putative oxidoreductase	GEN
+ICLPPAIG_05813	CDS	1155	pbuE_2		COG2814	Purine efflux pump PbuE	GEN
+ICLPPAIG_05849	CDS	645	leuE		COG1280	Leucine efflux protein	GEN
+ICLPPAIG_05856	CDS	756	nfrA	1.6.-.-	COG0778	NADPH-dependent oxidoreductase	GEN
+ICLPPAIG_05868	CDS	1467	guaB_2	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_05873	CDS	1200	yciC_2	3.6.5.-	COG0523	Zinc chaperone YciC	GEN
+ICLPPAIG_05875	CDS	1500	dabB			inorganic carbon transporter subunit DabB	GEN
+ICLPPAIG_05876	CDS	2577	dabA2		COG3002	putative inorganic carbon transporter subunit DabA2	GEN
+ICLPPAIG_05889	CDS	1068	ldh	1.4.1.9		Leucine dehydrogenase	GEN
+ICLPPAIG_05948	CDS	1605	thrA_1		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_05975	CDS	1632	mmsA_1	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_05989	CDS	1056	yfmJ_2	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_06000	CDS	2727	dnaK_3			Chaperone protein DnaK	GEN
+ICLPPAIG_06069	CDS	1947	glpD_2	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_06076	CDS	2187	dnaJ_9			Chaperone protein DnaJ	GEN
+ICLPPAIG_06135	CDS	657	mdh_2	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_06136	CDS	903	hisD_2	1.1.1.23	COG0141	Histidinol dehydrogenase	GEN
+ICLPPAIG_06167	CDS	1047	adh_3	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_06189	CDS	3111	gcvP_2	1.4.4.2	COG0403	Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_06309	CDS	1029	yidC_2			Membrane protein insertase YidC	GEN
+ICLPPAIG_06438	CDS	1407	dnaJ_10		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_06454	CDS	1617	amtB_2		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_06462	CDS	2040	dnaK_4			Chaperone protein DnaK	GEN
+ICLPPAIG_06471	CDS	1983	dnaJ_11			Chaperone protein DnaJ	GEN
+ICLPPAIG_06544	CDS	1137	yidC_3			Membrane protein insertase YidC	GEN
+ICLPPAIG_06563	CDS	720	sdhA_4	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_07045	CDS	1029	yidC_4			Membrane protein insertase YidC	GEN
+ICLPPAIG_07090	CDS	1749	rocA_2	1.2.1.88		1-pyrroline-5-carboxylate dehydrogenase	GEN
+ICLPPAIG_07117	CDS	1209	lhgO_1	1.1.99.-		Glycerol 3-phosphate dehydrogenase	GEN
+ICLPPAIG_07172	CDS	1812	zwf_2	1.1.1.49		Glucose-6-phosphate 1-dehydrogenase	GEN
+ICLPPAIG_07211	CDS	1119	hicd_1	1.1.1.286	COG0473	Isocitrate/homoisocitrate dehydrogenase	GEN
+ICLPPAIG_07410	CDS	1935	dnaK_5			Chaperone protein DnaK	GEN
+ICLPPAIG_07618	CDS	1068	dnaJ_12		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_07660	CDS	3009	sucA_1	1.2.4.2	COG0567	2-oxoglutarate dehydrogenase E1 component	GEN
+ICLPPAIG_07663	CDS	2577	aroE_2	1.1.1.25		Shikimate dehydrogenase (NADP(+))	GEN
+ICLPPAIG_07678	CDS	1218	iolG_2	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_07682	CDS	1098	adhA_3	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_07731	CDS	1524	gnd_2	1.1.1.44		6-phosphogluconate dehydrogenase, decarboxylating	GEN
+ICLPPAIG_07762	CDS	1641	ndhA_1	1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase NdhA	GEN
+ICLPPAIG_07871	CDS	1356	gdhB_1	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_07894	CDS	1662	fieF_1			Cation-efflux pump FieF	GEN
+ICLPPAIG_07958	CDS	1008	mdh_3	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_07993	CDS	996	mdh_4	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_08174	CDS	1074	thrA_2		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_08226	CDS	510	guaB_3	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_08227	CDS	1023	guaB_4	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_08302	CDS	1923	mntH_3			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_08322	CDS	1407	pdhC_4	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_08346	CDS	1236	yidC_5			Membrane protein insertase YidC	GEN
+ICLPPAIG_08365	CDS	1716	mdtP_2		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_08420	CDS	1407	dnaJ_13		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_08644	CDS	1983		1.5.5.1		Electron transfer flavoprotein-ubiquinone oxidoreductase	GEN
+ICLPPAIG_08770	CDS	1113	gpsA_2	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_08778	CDS	882	pyrK_1			Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit	GEN
+ICLPPAIG_08841	CDS	855	ndhJ_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit J, chloroplastic	GEN
+ICLPPAIG_08885	CDS	675	hscB_1			Co-chaperone protein HscB	GEN
+ICLPPAIG_08929	CDS	1740	lldD_2	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_08977	CDS	1626	mntH_4			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_09101	CDS	1101	adhA_4	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_09302	CDS	2097	dnaK_6			Chaperone protein DnaK	GEN
+ICLPPAIG_09556	CDS	1635	iolT_2		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_09613	CDS	837	gdh_4	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_09637	CDS	2001	dnaJ_14			Chaperone protein DnaJ	GEN
+ICLPPAIG_09697	CDS	837	gdh_5	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_09717	CDS	1947	glpD_3	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_09829	CDS	1044	adhT_1	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_09860	CDS	1029	mdh_5	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_09861	CDS	2553	hisD_3	1.1.1.23		Histidinol dehydrogenase	GEN
+ICLPPAIG_09886	CDS	1476	gabD_1	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_09909	CDS	1224	dnaJ_15		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_10092	CDS	1029	yidC_6			Membrane protein insertase YidC	GEN
+ICLPPAIG_10134	CDS	1749	rocA_3	1.2.1.88		1-pyrroline-5-carboxylate dehydrogenase	GEN
+ICLPPAIG_10161	CDS	1209	lhgO_2	1.1.99.-		Glycerol 3-phosphate dehydrogenase	GEN
+ICLPPAIG_10212	CDS	1512	zwf2_1	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase 2	GEN
+ICLPPAIG_10250	CDS	1119	hicd_2	1.1.1.286	COG0473	Isocitrate/homoisocitrate dehydrogenase	GEN
+ICLPPAIG_10444	CDS	2199	dnaK_7			Chaperone protein DnaK	GEN
+ICLPPAIG_10667	CDS	1068	dnaJ_16		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_10673	CDS	1335	lysDH	1.4.1.18		Lysine 6-dehydrogenase	GEN
+ICLPPAIG_10715	CDS	3009	sucA_2	1.2.4.2	COG0567	2-oxoglutarate dehydrogenase E1 component	GEN
+ICLPPAIG_10719	CDS	2577	aroE_3	1.1.1.25		Shikimate dehydrogenase (NADP(+))	GEN
+ICLPPAIG_10730	CDS	1215	iolG_3	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_10733	CDS	1098	adhA_5	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_10775	CDS	1524	gnd_3	1.1.1.44		6-phosphogluconate dehydrogenase, decarboxylating	GEN
+ICLPPAIG_10810	CDS	1644	ndhA_2	1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase NdhA	GEN
+ICLPPAIG_10906	CDS	1218	yjiA_1	3.6.5.-	COG0523	Zinc chaperone YjiA	GEN
+ICLPPAIG_10911	CDS	1356	gdhB_2	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_10935	CDS	1665	fieF_2			Cation-efflux pump FieF	GEN
+ICLPPAIG_11007	CDS	1008	mdh_6	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_11049	CDS	996	mdh_7	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_11223	CDS	1074	thrA_3		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_11282	CDS	510	guaB_5	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_11283	CDS	1179	guaB_6	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_11359	CDS	1929	mntH_5			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_11375	CDS	1407	pdhC_5	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_11401	CDS	1137	yidC_7			Membrane protein insertase YidC	GEN
+ICLPPAIG_11419	CDS	1716	mdtP_3		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_11526	CDS	1422	nuoD_2	7.1.1.-	COG0649	NADH-quinone oxidoreductase subunit D	GEN
+ICLPPAIG_11527	CDS	891	dnaJ_17			Chaperone protein DnaJ	GEN
+ICLPPAIG_11568	CDS	1467	bamA_2			Outer membrane protein assembly factor BamA	GEN
+ICLPPAIG_11612	CDS	1038	iolG_4	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_11663	CDS	1377	dadA_2	1.4.99.-		D-amino acid dehydrogenase	GEN
+ICLPPAIG_11713	CDS	1734	lldD_3	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_11745	CDS	1491	nanT_2			Sialic acid transporter NanT	GEN
+ICLPPAIG_11761	CDS	1890	sdhA_5	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_11841	CDS	1293	sucB_2	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	GEN
+ICLPPAIG_11852	CDS	2673	clpB1_2		COG0542	Chaperone protein ClpB 1	GEN
+ICLPPAIG_11867	CDS	2112	betA_3	1.2.1.8		Oxygen-dependent choline dehydrogenase	GEN
+ICLPPAIG_11906	CDS	1617	niaP_6		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_12080	CDS	2262	clcA_2			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_12155	CDS	1095	adhA_6	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_12157	CDS	1086	adhA_7	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_12472	CDS	1458	vdh_2	1.2.1.67		Vanillin dehydrogenase	GEN
+ICLPPAIG_12483	CDS	486	dnaJ_18			Chaperone protein DnaJ	GEN
+ICLPPAIG_12557	CDS	1356	dnaJ_19		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_12600	CDS	858	gdh_6	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_12657	CDS	921	ytbE	1.-.-.-	COG0656	putative oxidoreductase YtbE	GEN
+ICLPPAIG_12783	CDS	594		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_12821	CDS	1299	tdh_1	1.1.1.103		L-threonine 3-dehydrogenase	GEN
+ICLPPAIG_12931	CDS	1470	nrgA_1		COG0004	Ammonium transporter	GEN
+ICLPPAIG_13182	CDS	870	dnaJ_20			Chaperone protein DnaJ	GEN
+ICLPPAIG_13223	CDS	633	ndhK_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic	GEN
+ICLPPAIG_13331	CDS	1479	ttuB_1			Putative tartrate transporter	GEN
+ICLPPAIG_13366	CDS	1647	xylT_1			D-xylose transporter	GEN
+ICLPPAIG_13393	CDS	1107	mmsB_1	1.1.1.31		3-hydroxyisobutyrate dehydrogenase	GEN
+ICLPPAIG_13409	CDS	2358	clcA_3			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_13428	CDS	1092	yfmJ_3	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_13461	CDS	1008	dnaJ2_1		COG0484	Chaperone protein DnaJ 2	GEN
+ICLPPAIG_13482	CDS	1116	leuB_1	1.1.1.85		3-isopropylmalate dehydrogenase	GEN
+ICLPPAIG_13688	CDS	2175	zitB_1			Zinc transporter ZitB	GEN
+ICLPPAIG_13822	CDS	273	nuoL_1	7.1.1.-	COG1009	NADH-quinone oxidoreductase subunit L	GEN
+ICLPPAIG_14045	CDS	1152	gpsA_3	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_14622	CDS	1815	guaB_7	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_14667	CDS	1053	yfmJ_4	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_14685	CDS	1962	dnaK_8			Chaperone protein DnaK	GEN
+ICLPPAIG_14728	CDS	810	dnaJ_21			Chaperone protein DnaJ	GEN
+ICLPPAIG_14782	CDS	1791	mdtP_4		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_14799	CDS	1851	betB_1	1.2.1.8		Betaine aldehyde dehydrogenase	GEN
+ICLPPAIG_14948	CDS	1815	guaB_8	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_15388	CDS	1002	gapA_1	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A	GEN
+ICLPPAIG_15551	CDS	1773	mdtP_5		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_15554	CDS	1386	dnaJ_22			Chaperone protein DnaJ	GEN
+ICLPPAIG_15637	CDS	1182		1.17.1.9		Formate dehydrogenase, mitochondrial	GEN
+ICLPPAIG_15644	CDS	1794	dnaJ_23			Chaperone protein DnaJ	GEN
+ICLPPAIG_15711	CDS	1077	bfmBAB_2	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_15889	CDS	1461	nuoF_1	7.1.1.-		NADH-quinone oxidoreductase subunit F	GEN
+ICLPPAIG_16052	CDS	2163	nqo3_1	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_16102	CDS	1287	pyrD_2	1.3.5.2		Dihydroorotate dehydrogenase (quinone)	GEN
+ICLPPAIG_16379	CDS	1287	pyrD_3	1.3.5.2		Dihydroorotate dehydrogenase (quinone)	GEN
+ICLPPAIG_16423	CDS	2163	nqo3_2	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_16593	CDS	1575	nuoF_2	7.1.1.-		NADH-quinone oxidoreductase subunit F	GEN
+ICLPPAIG_16768	CDS	1077	bfmBAB_3	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_16829	CDS	2037	dnaJ_24			Chaperone protein DnaJ	GEN
+ICLPPAIG_16838	CDS	1203		1.17.1.9		Formate dehydrogenase, mitochondrial	GEN
+ICLPPAIG_16902	CDS	1386	dnaJ_25			Chaperone protein DnaJ	GEN
+ICLPPAIG_16906	CDS	1773	mdtP_6		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_17086	CDS	1002	gapA_2	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A	GEN
+ICLPPAIG_17227	CDS	1542	nanT_3			Sialic acid transporter NanT	GEN
+ICLPPAIG_17230	CDS	1563	nanT_4			Sialic acid transporter NanT	GEN
+ICLPPAIG_17233	CDS	1560	nanT_5			Sialic acid transporter NanT	GEN
+ICLPPAIG_17237	CDS	1818	mdtP_7		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_17241	CDS	1764	mdtP_8		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_17458	CDS	1506	adh_4	1.2.1.3	COG1012	Aldehyde dehydrogenase	GEN
+ICLPPAIG_17475	CDS	963	dnaJ_26			Chaperone protein DnaJ	GEN
+ICLPPAIG_17623	CDS	1113		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase	GEN
+ICLPPAIG_17656	CDS	1017	iolT_3		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_17732	CDS	1224	dnaJ_27		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_17759	CDS	675		1.2.1.97		3-sulfolactaldehyde dehydrogenase	GEN
+ICLPPAIG_17760	CDS	573	davD	1.2.1.-		Glutarate-semialdehyde dehydrogenase	GEN
+ICLPPAIG_17796	CDS	2355	hisD_4	1.1.1.23		Histidinol dehydrogenase	GEN
+ICLPPAIG_17797	CDS	537	mdh_8	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_17798	CDS	471	mdh_9	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_17940	CDS	2040	dnaK_9			Chaperone protein DnaK	GEN
+ICLPPAIG_17945	CDS	1617	amtB_3		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_18009	CDS	1584		1.1.99.39		D-2-hydroxyglutarate dehydrogenase	GEN
+ICLPPAIG_18024	CDS	1098	icd_2	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_18026	CDS	1074	frmA_1	1.1.1.284	COG1062	S-(hydroxymethyl)glutathione dehydrogenase	GEN
+ICLPPAIG_18043	CDS	1425	amtB_4		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_18158	CDS	1431	zitB_2			Zinc transporter ZitB	GEN
+ICLPPAIG_18223	CDS	1620	dnaJ_28			Chaperone protein DnaJ	GEN
+ICLPPAIG_18246	CDS	1842	dnaK_10			Chaperone protein DnaK	GEN
+ICLPPAIG_18348	CDS	1962	dnaJ_29			Chaperone protein DnaJ	GEN
+ICLPPAIG_18926	CDS	1230	icd-1_1	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_18934	CDS	1455	lpd3_1	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase 3	GEN
+ICLPPAIG_19095	CDS	876	dnaJ_30			Chaperone protein DnaJ	GEN
+ICLPPAIG_19137	CDS	888	ndhK_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic	GEN
+ICLPPAIG_19238	CDS	1560	ttuB_2			Putative tartrate transporter	GEN
+ICLPPAIG_19265	CDS	1647	xylT_2			D-xylose transporter	GEN
+ICLPPAIG_19303	CDS	1107	mmsB_2	1.1.1.31		3-hydroxyisobutyrate dehydrogenase	GEN
+ICLPPAIG_19316	CDS	2358	clcA_4			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_19336	CDS	1092	yfmJ_5	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_19362	CDS	1008	dnaJ2_2		COG0484	Chaperone protein DnaJ 2	GEN
+ICLPPAIG_19381	CDS	1116	leuB_2	1.1.1.85		3-isopropylmalate dehydrogenase	GEN
+ICLPPAIG_19589	CDS	2175	zitB_3			Zinc transporter ZitB	GEN
+ICLPPAIG_19929	CDS	1152	gpsA_4	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_20200	CDS	1542	nanT_6			Sialic acid transporter NanT	GEN
+ICLPPAIG_20202	CDS	1563	nanT_7			Sialic acid transporter NanT	GEN
+ICLPPAIG_20206	CDS	1560	nanT_8			Sialic acid transporter NanT	GEN
+ICLPPAIG_20215	CDS	1818	mdtP_9		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_20220	CDS	1764	mdtP_10		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_20476	CDS	1506	adh_5	1.2.1.3	COG1012	Aldehyde dehydrogenase	GEN
+ICLPPAIG_20495	CDS	963	dnaJ_31			Chaperone protein DnaJ	GEN
+ICLPPAIG_20635	CDS	1191	zitB_4			Zinc transporter ZitB	GEN
+ICLPPAIG_20638	CDS	1482	zupT_1			Zinc transporter ZupT	GEN
+ICLPPAIG_20681	CDS	1554	aldA_3	1.2.1.3		Putative aldehyde dehydrogenase AldA	GEN
+ICLPPAIG_20696	CDS	2724	dnaK_11			Chaperone protein DnaK	GEN
+ICLPPAIG_20708	CDS	1056	yfmJ_6	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_20722	CDS	1632	mmsA_2	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_20753	CDS	1605	thrA_4		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_20830	CDS	1947	dnaK_12			Chaperone protein DnaK	GEN
+ICLPPAIG_20886	CDS	1398	serA_2	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase	GEN
+ICLPPAIG_20933	CDS	1476	glcP_2		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_20945	CDS	1071	iolU_1	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU	GEN
+ICLPPAIG_21031	CDS	669	ndhI_1	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit I, chloroplastic	GEN
+ICLPPAIG_21454	CDS	1548	nanT_9			Sialic acid transporter NanT	GEN
+ICLPPAIG_21494	CDS	1650	dnaK_13			Chaperone protein DnaK	GEN
+ICLPPAIG_21532	CDS	1020	icd_3	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_21761	CDS	2412	clpB_2			Chaperone protein ClpB	GEN
+ICLPPAIG_21833	CDS	525	surA_1	5.2.1.8		Chaperone SurA	GEN
+ICLPPAIG_22184	CDS	1644	aldH1_1	1.2.1.-	COG1012	4,4'-diaponeurosporen-aldehyde dehydrogenase	GEN
+ICLPPAIG_22203	CDS	1290	icd-1_2	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_22360	CDS	1329	fadE2_1	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_22464	CDS	1098	adhA_8	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_22487	CDS	1527	gabD_2	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_22675	CDS	2709	hcaB_2	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_22724	CDS	891	hcaB_3	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_22816	CDS	1479	ttuB_3			Putative tartrate transporter	GEN
+ICLPPAIG_23012	CDS	1479	ttuB_4			Putative tartrate transporter	GEN
+ICLPPAIG_23109	CDS	978	hcaB_4	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_23166	CDS	2718	hcaB_5	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_23363	CDS	1527	gabD_3	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_23391	CDS	1098	adhA_9	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_23501	CDS	1329	fadE2_2	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_23644	CDS	1290	icd-1_3	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_23660	CDS	1644	aldH1_2	1.2.1.-	COG1012	4,4'-diaponeurosporen-aldehyde dehydrogenase	GEN
+ICLPPAIG_23979	CDS	525	surA_2	5.2.1.8		Chaperone SurA	GEN
+ICLPPAIG_24044	CDS	2412	clpB_3			Chaperone protein ClpB	GEN
+ICLPPAIG_24263	CDS	1017	icd_4	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_24296	CDS	1650	dnaK_14			Chaperone protein DnaK	GEN
+ICLPPAIG_24337	CDS	1548	nanT_10			Sialic acid transporter NanT	GEN
+ICLPPAIG_24743	CDS	669	ndhI_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit I, chloroplastic	GEN
+ICLPPAIG_24832	CDS	1299	iolU_2	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU	GEN
+ICLPPAIG_24842	CDS	1476	glcP_3		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_24884	CDS	1398	serA_3	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase	GEN
+ICLPPAIG_24935	CDS	1947	dnaK_15			Chaperone protein DnaK	GEN
+ICLPPAIG_25011	CDS	1605	thrA_5		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_25043	CDS	1632	mmsA_3	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_25059	CDS	1056	yfmJ_7	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_25068	CDS	2730	dnaK_16			Chaperone protein DnaK	GEN
+ICLPPAIG_25080	CDS	1527	aldA_4	1.2.1.3		Putative aldehyde dehydrogenase AldA	GEN
+ICLPPAIG_25127	CDS	1482	zupT_2			Zinc transporter ZupT	GEN
+ICLPPAIG_25131	CDS	1191	zitB_5			Zinc transporter ZitB	GEN
+ICLPPAIG_25285	CDS	1386	dnaJ_32			Chaperone protein DnaJ	GEN
+ICLPPAIG_25300	CDS	1098	adhA_10	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_25401	CDS	1374	sotB_1			sugar efflux transporter	GEN
+ICLPPAIG_25465	CDS	1053	yfmJ_8	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_25541	CDS	1944	dnaK_17			Chaperone protein DnaK	GEN
+ICLPPAIG_25558	CDS	1053	yfmJ_9	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_25720	CDS	1329	fadE2_3	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_25898	CDS	1290	icd-1_4	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_25910	CDS	1491	nanT_11			Sialic acid transporter NanT	GEN
+ICLPPAIG_25926	CDS	1890	sdhA_6	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_26067	CDS	810	dnaJ_33			Chaperone protein DnaJ	GEN
+ICLPPAIG_26113	CDS	1962	dnaK_18			Chaperone protein DnaK	GEN
+ICLPPAIG_26128	CDS	1053	yfmJ_10	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_26131	CDS	690	yfmJ_11	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_26166	CDS	1008	dnaJ2_3		COG0484	Chaperone protein DnaJ 2	GEN
+ICLPPAIG_26187	CDS	1116	leuB_3	1.1.1.85		3-isopropylmalate dehydrogenase	GEN
+ICLPPAIG_26195	CDS	2112	betA_4	1.2.1.8		Oxygen-dependent choline dehydrogenase	GEN
+ICLPPAIG_26206	CDS	2616	clpB_4			Chaperone protein ClpB	GEN
+ICLPPAIG_26218	CDS	1293	sucB_3	2.3.1.61	COG0508	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	GEN
+ICLPPAIG_26324	CDS	1983		1.5.5.1		Electron transfer flavoprotein-ubiquinone oxidoreductase	GEN
+ICLPPAIG_26641	CDS	1008	ydiB_2	1.1.1.282	COG0169	Quinate/shikimate dehydrogenase	GEN
+ICLPPAIG_26679	CDS	1407	xylT_3			D-xylose transporter	GEN
+ICLPPAIG_26772	CDS	909		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_26773	CDS	789		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_26863	CDS	1545	amtB_5		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_26875	CDS	1374	sotB_2			sugar efflux transporter	GEN
+ICLPPAIG_27103	CDS	2040	dnaK_19		COG0443	Chaperone protein DnaK	GEN
+ICLPPAIG_27110	CDS	1617	amtB_6		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_27170	CDS	1584		1.1.99.39		D-2-hydroxyglutarate dehydrogenase	GEN
+ICLPPAIG_27187	CDS	1098	icd_5	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_27189	CDS	1074	frmA_2	1.1.1.284	COG1062	S-(hydroxymethyl)glutathione dehydrogenase	GEN
+ICLPPAIG_27206	CDS	1425	amtB_7		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_27438	CDS	261	dnaJ_34			Chaperone protein DnaJ	GEN
+ICLPPAIG_27439	CDS	675	dnaJ_35			Chaperone protein DnaJ	GEN
+ICLPPAIG_27479	CDS	1842	dnaK_20			Chaperone protein DnaK	GEN
+ICLPPAIG_27637	CDS	318	dnaJ_36			Chaperone protein DnaJ	GEN
+ICLPPAIG_28005	CDS	1320	fadE	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase	GEN
+ICLPPAIG_28321	CDS	1386			COG1132	putative ABC transporter ATP-binding protein	GEN
+ICLPPAIG_28448	CDS	1230	icd-1_5	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_28456	CDS	1455	lpd3_2	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase 3	GEN
+ICLPPAIG_28617	CDS	870	dnaJ_37			Chaperone protein DnaJ	GEN
+ICLPPAIG_28658	CDS	633	ndhK_3	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic	GEN
+ICLPPAIG_28763	CDS	1476	ttuB_5			Putative tartrate transporter	GEN
+ICLPPAIG_28798	CDS	1647	xylT_4			D-xylose transporter	GEN
+ICLPPAIG_28822	CDS	1107	mmsB_3	1.1.1.31		3-hydroxyisobutyrate dehydrogenase	GEN
+ICLPPAIG_28837	CDS	2358	clcA_5			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_28863	CDS	1092	yfmJ_12	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_28892	CDS	1011	dnaJ_38			Chaperone protein DnaJ	GEN
+ICLPPAIG_28912	CDS	1116	leuB_4	1.1.1.85		3-isopropylmalate dehydrogenase	GEN
+ICLPPAIG_29178	CDS	2175	zitB_6			Zinc transporter ZitB	GEN
+ICLPPAIG_29513	CDS	1128	gcvP_3	1.4.4.2		Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_29514	CDS	615	gcvP_4	1.4.4.2		Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_29515	CDS	339	gcvP_5	1.4.4.2		Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_29516	CDS	1080	gcvP_6	1.4.4.2	COG0403	Glycine dehydrogenase (decarboxylating)	GEN
+ICLPPAIG_29916	CDS	963	dnaJ_39			Chaperone protein DnaJ	GEN
+ICLPPAIG_30088	CDS	1461	nuoF_3	7.1.1.-		NADH-quinone oxidoreductase subunit F	GEN
+ICLPPAIG_30250	CDS	1113		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase	GEN
+ICLPPAIG_30276	CDS	939	iolT_4		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_30340	CDS	1224	dnaJ_40		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_30383	CDS	702		1.2.1.97		3-sulfolactaldehyde dehydrogenase	GEN
+ICLPPAIG_30384	CDS	972	iolA	1.2.1.27		Malonate-semialdehyde dehydrogenase	GEN
+ICLPPAIG_30416	CDS	285	hisD_5	1.1.1.23	COG0141	Histidinol dehydrogenase	GEN
+ICLPPAIG_30417	CDS	447	hisD_6	1.1.1.23	COG0141	Histidinol dehydrogenase	GEN
+ICLPPAIG_30420	CDS	675	mdh_10	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_30421	CDS	357	mdh_11	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_30471	CDS	1044	adhT_2	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_30617	CDS	2007	glpD_4	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_30636	CDS	486	gdh_7	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_30722	CDS	630	dnaJ_41			Chaperone protein DnaJ	GEN
+ICLPPAIG_30760	CDS	837	gdh_8	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_30832	CDS	1635	iolT_5		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_31181	CDS	2097	dnaK_21			Chaperone protein DnaK	GEN
+ICLPPAIG_31380	CDS	1101	adhA_11	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_31505	CDS	1626	mntH_6			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_31549	CDS	1740	lldD_4	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_31581	CDS	675	hscB_2			Co-chaperone protein HscB	GEN
+ICLPPAIG_31624	CDS	855	ndhJ_2	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit J, chloroplastic	GEN
+ICLPPAIG_31689	CDS	882	pyrK_2			Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit	GEN
+ICLPPAIG_31701	CDS	1113	gpsA_5	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_31828	CDS	1986		1.5.5.1		Electron transfer flavoprotein-ubiquinone oxidoreductase	GEN
+ICLPPAIG_32071	CDS	1407	dnaJ_42		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_32116	CDS	1026	mdtP_11		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_32206	CDS	963	dnaJ_43			Chaperone protein DnaJ	GEN
+ICLPPAIG_32263	CDS	1029	yidC_8			Membrane protein insertase YidC	GEN
+ICLPPAIG_32501	CDS	1356	gdhB_3	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_32507	CDS	1218	yjiA_2	3.6.5.-	COG0523	Zinc chaperone YjiA	GEN
+ICLPPAIG_32530	CDS	1029	mdh_12	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_32531	CDS	2496	hisD_7	1.1.1.23		Histidinol dehydrogenase	GEN
+ICLPPAIG_32558	CDS	1074	frmA_3	1.1.1.284	COG1062	S-(hydroxymethyl)glutathione dehydrogenase	GEN
+ICLPPAIG_32560	CDS	1098	icd_6	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_32627	CDS	1446	glcP_4		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_32697	CDS	1020	icd_7	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_32728	CDS	1650	dnaK_22			Chaperone protein DnaK	GEN
+ICLPPAIG_32766	CDS	1191	nanT_12			Sialic acid transporter NanT	GEN
+ICLPPAIG_32872	CDS	1098	fgd_2	1.1.98.2		F420-dependent glucose-6-phosphate dehydrogenase	GEN
+ICLPPAIG_32879	CDS	561	dszD	1.5.1.42		NADH:FMN oxidoreductase	GEN
+ICLPPAIG_32881	CDS	1338	gdh_9	1.4.1.4	COG0334	NADP-specific glutamate dehydrogenase	GEN
+ICLPPAIG_33046	CDS	1716	mdtP_12		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_33065	CDS	1137	yidC_9			Membrane protein insertase YidC	GEN
+ICLPPAIG_33194	CDS	1470	nrgA_2		COG0004	Ammonium transporter	GEN
+ICLPPAIG_33223	CDS	1491	nanT_13			Sialic acid transporter NanT	GEN
+ICLPPAIG_33236	CDS	1890	sdhA_7	1.3.5.1	COG1053	Succinate dehydrogenase flavoprotein subunit	GEN
+ICLPPAIG_33347	CDS	1893	ywjA		COG1132	putative ABC transporter ATP-binding protein YwjA	GEN
+ICLPPAIG_33377	CDS	1059			COG0861	putative membrane protein	GEN
+ICLPPAIG_33378	CDS	1122			COG0861	putative membrane protein	GEN
+ICLPPAIG_33386	CDS	1170	gap	1.2.1.12		Glyceraldehyde-3-phosphate dehydrogenase	GEN
+ICLPPAIG_33393	CDS	1542	zwf2_2	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase 2	GEN
+ICLPPAIG_33553	CDS	1191	zitB_7			Zinc transporter ZitB	GEN
+ICLPPAIG_33656	CDS	912	fgd_3	1.1.98.2		F420-dependent glucose-6-phosphate dehydrogenase	GEN
+ICLPPAIG_33660	CDS	1407	lpdC	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase	GEN
+ICLPPAIG_33663	CDS	891	yghA_2	1.-.-.-	COG1028	putative oxidoreductase YghA	GEN
+ICLPPAIG_33669	CDS	1026	gpsA2	1.1.1.94	COG0240	Glycerol-3-phosphate dehydrogenase [NAD(P)+] 2	GEN
+ICLPPAIG_33701	CDS	1749	rocA_4	1.2.1.88		1-pyrroline-5-carboxylate dehydrogenase	GEN
+ICLPPAIG_33753	CDS	1044	adhT_3	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_33790	CDS	1029	mdh_13	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_33791	CDS	2697	hisD_8	1.1.1.23		Histidinol dehydrogenase	GEN
+ICLPPAIG_33798	CDS	1290	icd-1_6	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_33944	CDS	1053	yfmJ_13	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_33962	CDS	1962	dnaK_23			Chaperone protein DnaK	GEN
+ICLPPAIG_34000	CDS	810	dnaJ_44			Chaperone protein DnaJ	GEN
+ICLPPAIG_34062	CDS	1791	mdtP_13		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_34078	CDS	1851	betB_2	1.2.1.8		Betaine aldehyde dehydrogenase	GEN
+ICLPPAIG_34215	CDS	1815	guaB_9	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_34669	CDS	1002	gapA_3	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A	GEN
+ICLPPAIG_34867	CDS	1773	mdtP_14		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_34872	CDS	1386	dnaJ_45			Chaperone protein DnaJ	GEN
+ICLPPAIG_34937	CDS	1794	dnaJ_46			Chaperone protein DnaJ	GEN
+ICLPPAIG_34995	CDS	1077	bfmBAB_4	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_35176	CDS	1509	nuoF_4	7.1.1.-		NADH-quinone oxidoreductase subunit F	GEN
+ICLPPAIG_35349	CDS	2163	nqo3_3	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_35392	CDS	1287	pyrD_4	1.3.5.2		Dihydroorotate dehydrogenase (quinone)	GEN
+ICLPPAIG_35667	CDS	1470	nrgA_3		COG0004	Ammonium transporter	GEN
+ICLPPAIG_35769	CDS	1299	tdh_2	1.1.1.103		L-threonine 3-dehydrogenase	GEN
+ICLPPAIG_35805	CDS	594		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_35925	CDS	1479	ttuB_6			Putative tartrate transporter	GEN
+ICLPPAIG_36003	CDS	891	hcaB_6	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_36067	CDS	2712	hcaB_7	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_36246	CDS	1527	gabD_4	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_36267	CDS	1098	adhA_12	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_36383	CDS	1329	fadE2_4	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_36540	CDS	1290	icd-1_7	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_36570	CDS	1644	aldH1_3	1.2.1.-	COG1012	4,4'-diaponeurosporen-aldehyde dehydrogenase	GEN
+ICLPPAIG_36906	CDS	525	surA_3	5.2.1.8		Chaperone SurA	GEN
+ICLPPAIG_36978	CDS	2412	clpB_5			Chaperone protein ClpB	GEN
+ICLPPAIG_37187	CDS	1020	icd_8	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_37239	CDS	1650	dnaK_24			Chaperone protein DnaK	GEN
+ICLPPAIG_37280	CDS	1548	nanT_14			Sialic acid transporter NanT	GEN
+ICLPPAIG_37678	CDS	669	ndhI_3	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit I, chloroplastic	GEN
+ICLPPAIG_37778	CDS	1071	iolU_3	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU	GEN
+ICLPPAIG_37790	CDS	1476	glcP_5		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_37834	CDS	1398	serA_4	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase	GEN
+ICLPPAIG_37888	CDS	1947	dnaK_25			Chaperone protein DnaK	GEN
+ICLPPAIG_37957	CDS	1605	thrA_6		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_37990	CDS	1632	mmsA_4	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_38004	CDS	1056	yfmJ_14	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_38015	CDS	2736	dnaK_26			Chaperone protein DnaK	GEN
+ICLPPAIG_38029	CDS	1554	aldA_5	1.2.1.3		Putative aldehyde dehydrogenase AldA	GEN
+ICLPPAIG_38078	CDS	1482	zupT_3			Zinc transporter ZupT	GEN
+ICLPPAIG_38081	CDS	1191	zitB_8			Zinc transporter ZitB	GEN
+ICLPPAIG_38329	CDS	2040	dnaK_27		COG0443	Chaperone protein DnaK	GEN
+ICLPPAIG_38336	CDS	1617	amtB_8		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_38395	CDS	1584		1.1.99.39		D-2-hydroxyglutarate dehydrogenase	GEN
+ICLPPAIG_38410	CDS	1098	icd_9	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_38412	CDS	1074	frmA_4	1.1.1.284	COG1062	S-(hydroxymethyl)glutathione dehydrogenase	GEN
+ICLPPAIG_38427	CDS	1425	amtB_9		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_38550	CDS	1425	zitB_9			Zinc transporter ZitB	GEN
+ICLPPAIG_38625	CDS	1620	dnaJ_47			Chaperone protein DnaJ	GEN
+ICLPPAIG_38654	CDS	1842	dnaK_28			Chaperone protein DnaK	GEN
+ICLPPAIG_38755	CDS	1977	dnaJ_48			Chaperone protein DnaJ	GEN
+ICLPPAIG_39368	CDS	1230	icd-1_8	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_39377	CDS	1455	lpd3_3	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase 3	GEN
+ICLPPAIG_39537	CDS	870	dnaJ_49			Chaperone protein DnaJ	GEN
+ICLPPAIG_39572	CDS	633	ndhK_4	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic	GEN
+ICLPPAIG_39679	CDS	1476	ttuB_7			Putative tartrate transporter	GEN
+ICLPPAIG_39711	CDS	1647	xylT_5			D-xylose transporter	GEN
+ICLPPAIG_39739	CDS	1131	mmsB_4	1.1.1.31		3-hydroxyisobutyrate dehydrogenase	GEN
+ICLPPAIG_39749	CDS	2358	clcA_6			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_39769	CDS	1092	yfmJ_15	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_39801	CDS	1011	dnaJ_50			Chaperone protein DnaJ	GEN
+ICLPPAIG_39821	CDS	1116	leuB_5	1.1.1.85		3-isopropylmalate dehydrogenase	GEN
+ICLPPAIG_40029	CDS	2175	zitB_10			Zinc transporter ZitB	GEN
+ICLPPAIG_40377	CDS	1152	gpsA_6	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_40654	CDS	1542	nanT_15			Sialic acid transporter NanT	GEN
+ICLPPAIG_40656	CDS	1563	nanT_16			Sialic acid transporter NanT	GEN
+ICLPPAIG_40659	CDS	1560	nanT_17			Sialic acid transporter NanT	GEN
+ICLPPAIG_40668	CDS	1818	mdtP_15		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_40672	CDS	1764	mdtP_16		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_40894	CDS	1506	adh_6	1.2.1.3	COG1012	Aldehyde dehydrogenase	GEN
+ICLPPAIG_40913	CDS	963	dnaJ_51			Chaperone protein DnaJ	GEN
+ICLPPAIG_41085	CDS	1029	yidC_10			Membrane protein insertase YidC	GEN
+ICLPPAIG_41132	CDS	1749	rocA_5	1.2.1.88		1-pyrroline-5-carboxylate dehydrogenase	GEN
+ICLPPAIG_41159	CDS	1209	lhgO_3	1.1.99.-		Glycerol 3-phosphate dehydrogenase	GEN
+ICLPPAIG_41206	CDS	1512	zwf2_3	1.1.1.49	COG0364	Glucose-6-phosphate 1-dehydrogenase 2	GEN
+ICLPPAIG_41243	CDS	1119	hicd_3	1.1.1.286	COG0473	Isocitrate/homoisocitrate dehydrogenase	GEN
+ICLPPAIG_41430	CDS	1935	dnaK_29			Chaperone protein DnaK	GEN
+ICLPPAIG_41644	CDS	1068	dnaJ_52		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_41689	CDS	3009	sucA_3	1.2.4.2	COG0567	2-oxoglutarate dehydrogenase E1 component	GEN
+ICLPPAIG_41692	CDS	2577	aroE_4	1.1.1.25		Shikimate dehydrogenase (NADP(+))	GEN
+ICLPPAIG_41705	CDS	1218	iolG_5	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_41708	CDS	1098	adhA_13	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_41752	CDS	1524	gnd_4	1.1.1.44		6-phosphogluconate dehydrogenase, decarboxylating	GEN
+ICLPPAIG_41777	CDS	1647	ndhA_3	1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase NdhA	GEN
+ICLPPAIG_41897	CDS	1218	yjiA_3	3.6.5.-	COG0523	Zinc chaperone YjiA	GEN
+ICLPPAIG_41902	CDS	1356	gdhB_4	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_41922	CDS	1665	fieF_3			Cation-efflux pump FieF	GEN
+ICLPPAIG_41987	CDS	1008	mdh_14	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_42026	CDS	996	mdh_15	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_42189	CDS	1074	thrA_7		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_42250	CDS	510	guaB_10	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_42251	CDS	1179	guaB_11	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_42338	CDS	1929	mntH_7			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_42358	CDS	1407	pdhC_6	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_42379	CDS	1242	yidC_11			Membrane protein insertase YidC	GEN
+ICLPPAIG_42399	CDS	1716	mdtP_17		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_42444	CDS	1407	dnaJ_53		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_42593	CDS	1986		1.5.5.1		Electron transfer flavoprotein-ubiquinone oxidoreductase	GEN
+ICLPPAIG_42722	CDS	1197	gpsA_7	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_42732	CDS	882	pyrK_3			Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit	GEN
+ICLPPAIG_42798	CDS	855	ndhJ_3	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit J, chloroplastic	GEN
+ICLPPAIG_42854	CDS	675	hscB_3			Co-chaperone protein HscB	GEN
+ICLPPAIG_42898	CDS	1740	lldD_5	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_42939	CDS	1626	mntH_8			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_43060	CDS	1101	adhA_14	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_43274	CDS	2097	dnaK_30			Chaperone protein DnaK	GEN
+ICLPPAIG_43532	CDS	1635	iolT_6		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_43591	CDS	837	gdh_10	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_43616	CDS	2001	dnaJ_54			Chaperone protein DnaJ	GEN
+ICLPPAIG_43675	CDS	837	gdh_11	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_43693	CDS	1947	glpD_5	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_43801	CDS	1044	adhT_4	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_43838	CDS	1029	mdh_16	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_43839	CDS	2553	hisD_9	1.1.1.23		Histidinol dehydrogenase	GEN
+ICLPPAIG_43865	CDS	1476	gabD_5	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_43891	CDS	1224	dnaJ_55		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_43935	CDS	1647	iolT_7		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_43955	CDS	1113		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase	GEN
+ICLPPAIG_44172	CDS	1053	yfmJ_16	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_44212	CDS	399	ndhC	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit 3, chloroplastic	GEN
+ICLPPAIG_44235	CDS	291	ndhD	7.1.1.-		NAD(P)H-quinone oxidoreductase chain 4	GEN
+ICLPPAIG_44236	CDS	501	nuoM	7.1.1.-	COG1008	NADH-quinone oxidoreductase subunit M	GEN
+ICLPPAIG_44237	CDS	255		7.1.1.-		NADH-quinone oxidoreductase subunit 11	GEN
+ICLPPAIG_44240	CDS	426	nuoL_2	7.1.1.-	COG1009	NADH-quinone oxidoreductase subunit L	GEN
+ICLPPAIG_44297	CDS	1074	frmA_5	1.1.1.284	COG1062	S-(hydroxymethyl)glutathione dehydrogenase	GEN
+ICLPPAIG_44298	CDS	1098	icd_10	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_44372	CDS	261	nuoH	7.1.1.-		NADH-quinone oxidoreductase subunit H	GEN
+ICLPPAIG_44476	CDS	1407	dnaJ_56		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_44522	CDS	1716	mdtP_18		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_44543	CDS	1137	yidC_12			Membrane protein insertase YidC	GEN
+ICLPPAIG_44566	CDS	1407	pdhC_7	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_44587	CDS	1929	mntH_9			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_44675	CDS	1566	dnaJ_57			Chaperone protein DnaJ	GEN
+ICLPPAIG_44917	CDS	1077	bfmBAB_5	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_44975	CDS	1794	dnaJ_58			Chaperone protein DnaJ	GEN
+ICLPPAIG_45156	CDS	1134		1.17.1.9		Formate dehydrogenase	GEN
+ICLPPAIG_45157	CDS	783	sdhB_3	1.3.5.1	COG0479	Succinate dehydrogenase iron-sulfur subunit	GEN
+ICLPPAIG_45191	CDS	951	dnaJ_59			Chaperone protein DnaJ	GEN
+ICLPPAIG_45437	CDS	1620	dnaJ_60			Chaperone protein DnaJ	GEN
+ICLPPAIG_45463	CDS	1842	dnaK_31			Chaperone protein DnaK	GEN
+ICLPPAIG_45543	CDS	1008	ydiB_3	1.1.1.282	COG0169	Quinate/shikimate dehydrogenase	GEN
+ICLPPAIG_45713	CDS	1020	icd_11	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_45797	CDS	603		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_45798	CDS	789		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_45996	CDS	1299	tdh_3	1.1.1.103		L-threonine 3-dehydrogenase	GEN
+ICLPPAIG_46032	CDS	594		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_46394	CDS	1086	adhA_15	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_46396	CDS	1095	adhA_16	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_46577	CDS	2163	nqo3_4	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_46620	CDS	2163	nqo3_5	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_46737	CDS	1740	lldD_6	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_46916	CDS	1734	lldD_7	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_46989	CDS	1329	fadE2_5	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_47019	CDS	1479	ttuB_8			Putative tartrate transporter	GEN
+ICLPPAIG_47048	CDS	1647	xylT_6			D-xylose transporter	GEN
+ICLPPAIG_47107	CDS	486	dnaJ_61			Chaperone protein DnaJ	GEN
+ICLPPAIG_47118	CDS	1458	vdh_3	1.2.1.67		Vanillin dehydrogenase	GEN
+ICLPPAIG_47151	CDS	408	guaB_12	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_47451	CDS	1566	dnaJ_62			Chaperone protein DnaJ	GEN
+ICLPPAIG_47467	CDS	1479	ttuB_9			Putative tartrate transporter	GEN
+ICLPPAIG_47566	CDS	891	hcaB_8	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_47635	CDS	2712	hcaB_9	1.3.1.87		3-phenylpropionate-dihydrodiol/cinnamic acid-dihydrodiol dehydrogenase	GEN
+ICLPPAIG_47715	CDS	813	ttuB_10			Putative tartrate transporter	GEN
+ICLPPAIG_47859	CDS	1527	gabD_6	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_47891	CDS	1098	adhA_17	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_48013	CDS	990	fadE2_6	1.3.99.-	COG1960	putative acyl-CoA dehydrogenase FadE2	GEN
+ICLPPAIG_48215	CDS	1290	icd-1_9	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_48233	CDS	1644	aldH1_4	1.2.1.-	COG1012	4,4'-diaponeurosporen-aldehyde dehydrogenase	GEN
+ICLPPAIG_48728	CDS	1065	clpB_6		COG0542	Chaperone protein ClpB	GEN
+ICLPPAIG_48729	CDS	846	clpB_7			Chaperone protein ClpB	GEN
+ICLPPAIG_48954	CDS	1020	icd_12	1.1.1.42	COG0473	Isocitrate dehydrogenase [NADP]	GEN
+ICLPPAIG_48996	CDS	1650	dnaK_32			Chaperone protein DnaK	GEN
+ICLPPAIG_49037	CDS	1491	nanT_18		COG2814	Sialic acid transporter NanT	GEN
+ICLPPAIG_49485	CDS	669	ndhI_4	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit I, chloroplastic	GEN
+ICLPPAIG_49587	CDS	762	iolU_4	1.1.1.371	COG0673	scyllo-inositol 2-dehydrogenase (NADP(+)) IolU	GEN
+ICLPPAIG_49598	CDS	1476	glcP_6		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_49653	CDS	1398	serA_5	1.1.1.95	COG0111	D-3-phosphoglycerate dehydrogenase	GEN
+ICLPPAIG_49721	CDS	1947	dnaK_33			Chaperone protein DnaK	GEN
+ICLPPAIG_49820	CDS	1605	thrA_8		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_49865	CDS	525	mmsA_5	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_49866	CDS	1110	mmsA_6	1.2.1.27		Methylmalonate-semialdehyde dehydrogenase [acylating]	GEN
+ICLPPAIG_49889	CDS	1056	yfmJ_17	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_49902	CDS	2736	dnaK_34			Chaperone protein DnaK	GEN
+ICLPPAIG_49914	CDS	1692	aldA_6	1.2.1.3		Putative aldehyde dehydrogenase AldA	GEN
+ICLPPAIG_49970	CDS	1191	zitB_11			Zinc transporter ZitB	GEN
+ICLPPAIG_49996	CDS	636	yfcG	1.8.4.-	COG0625	Disulfide-bond oxidoreductase YfcG	GEN
+ICLPPAIG_50101	CDS	1146	tdh_4	1.1.1.103		L-threonine 3-dehydrogenase	GEN
+ICLPPAIG_50485	CDS	165	nqo1	7.1.1.-		NADH-quinone oxidoreductase chain 1	GEN
+ICLPPAIG_50558	CDS	1287	pyrD_5	1.3.5.2		Dihydroorotate dehydrogenase (quinone)	GEN
+ICLPPAIG_50623	CDS	2163	nqo3_6	7.1.1.-		NADH-quinone oxidoreductase chain 3	GEN
+ICLPPAIG_50811	CDS	1461	nuoF_5	7.1.1.-		NADH-quinone oxidoreductase subunit F	GEN
+ICLPPAIG_51061	CDS	1077	bfmBAB_6	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_51127	CDS	1173	dnaJ_63			Chaperone protein DnaJ	GEN
+ICLPPAIG_51141	CDS	1203		1.17.1.9		Formate dehydrogenase, mitochondrial	GEN
+ICLPPAIG_51229	CDS	1386	dnaJ_64			Chaperone protein DnaJ	GEN
+ICLPPAIG_51233	CDS	1056	mdtP_19		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_51417	CDS	1002	gapA_4	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A	GEN
+ICLPPAIG_51868	CDS	1446	glcP_7		COG2814	Glucose transporter GlcP	GEN
+ICLPPAIG_51976	CDS	693	guaB_13	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_52177	CDS	1791	mdtP_20		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_52241	CDS	810	dnaJ_65			Chaperone protein DnaJ	GEN
+ICLPPAIG_52285	CDS	1962	dnaK_35			Chaperone protein DnaK	GEN
+ICLPPAIG_52295	CDS	915		1.3.1.6		NADH:fumarate oxidoreductase	GEN
+ICLPPAIG_52308	CDS	1053	yfmJ_18	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_52361	CDS	687	sotB_3			sugar efflux transporter	GEN
+ICLPPAIG_52378	CDS	1545	amtB_10		COG0004	Ammonium transporter AmtB	GEN
+ICLPPAIG_52496	CDS	789		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_52497	CDS	987		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_52644	CDS	1008	ydiB_4	1.1.1.282	COG0169	Quinate/shikimate dehydrogenase	GEN
+ICLPPAIG_52731	CDS	1935	dnaK_36			Chaperone protein DnaK	GEN
+ICLPPAIG_52845	CDS	1554	niaP_7		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_53042	CDS	606		1.1.1.51		3-beta-hydroxysteroid dehydrogenase	GEN
+ICLPPAIG_53105	CDS	675	hscB_4			Co-chaperone protein HscB	GEN
+ICLPPAIG_53168	CDS	855	ndhJ_4	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit J, chloroplastic	GEN
+ICLPPAIG_53253	CDS	882	pyrK_4			Dihydroorotate dehydrogenase B (NAD(+)), electron transfer subunit	GEN
+ICLPPAIG_53265	CDS	1113	gpsA_8	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_53400	CDS	1986		1.5.5.1		Electron transfer flavoprotein-ubiquinone oxidoreductase	GEN
+ICLPPAIG_53565	CDS	1407	dnaJ_66		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_53618	CDS	1716	mdtP_21		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_53636	CDS	1137	yidC_13			Membrane protein insertase YidC	GEN
+ICLPPAIG_53666	CDS	1407	pdhC_8	2.3.1.12	COG0508	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	GEN
+ICLPPAIG_53689	CDS	564	mntH_10			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_53690	CDS	1221	mntH_11			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_53787	CDS	1179	guaB_14	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_53788	CDS	510	guaB_15	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_53856	CDS	336	thrA_9		COG0460	Bifunctional aspartokinase/homoserine dehydrogenase 1	GEN
+ICLPPAIG_54053	CDS	996	mdh_17	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_54107	CDS	1008	mdh_18	1.1.1.37		Malate dehydrogenase	GEN
+ICLPPAIG_54220	CDS	1356	gdhB_5	1.4.1.2		NAD-specific glutamate dehydrogenase	GEN
+ICLPPAIG_54334	CDS	1644	ndhA_4	1.6.5.9	COG1252	Type II NADH:quinone oxidoreductase NdhA	GEN
+ICLPPAIG_54366	CDS	1524	gnd_5	1.1.1.44		6-phosphogluconate dehydrogenase, decarboxylating	GEN
+ICLPPAIG_54412	CDS	1740	lldD_8	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_54468	CDS	1626	mntH_12			Divalent metal cation transporter MntH	GEN
+ICLPPAIG_54614	CDS	1101	adhA_18	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_54726	CDS	1407	iolT_8		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_54884	CDS	2097	dnaK_37			Chaperone protein DnaK	GEN
+ICLPPAIG_55060	CDS	477	xylT_7			D-xylose transporter	GEN
+ICLPPAIG_55178	CDS	1635	iolT_9		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_55239	CDS	837	gdh_12	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_55269	CDS	1278	dnaJ_67			Chaperone protein DnaJ	GEN
+ICLPPAIG_55345	CDS	837	gdh_13	1.1.1.16	COG1028	Galactitol 2-dehydrogenase	GEN
+ICLPPAIG_55364	CDS	1947	glpD_6	1.1.5.3	COG0578	Aerobic glycerol-3-phosphate dehydrogenase	GEN
+ICLPPAIG_55490	CDS	1044	adhT_5	1.1.1.1		Alcohol dehydrogenase	GEN
+ICLPPAIG_55524	CDS	1029	mdh_19	1.1.1.37	COG0039	Malate dehydrogenase	GEN
+ICLPPAIG_55525	CDS	768	hisD_10	1.1.1.23	COG0141	Histidinol dehydrogenase	GEN
+ICLPPAIG_55560	CDS	1476	gabD_7	1.2.1.79	COG1012	Succinate-semialdehyde dehydrogenase [NADP(+)] GabD	GEN
+ICLPPAIG_55594	CDS	1224	dnaJ_68		COG0484	Chaperone protein DnaJ	GEN
+ICLPPAIG_55647	CDS	1647	iolT_10		COG2814	Major myo-inositol transporter IolT	GEN
+ICLPPAIG_55674	CDS	1113		1.1.1.1	COG1063	putative zinc-binding alcohol dehydrogenase	GEN
+ICLPPAIG_55908	CDS	1554	niaP_8		COG2814	Niacin transporter NiaP	GEN
+ICLPPAIG_56008	CDS	1935	dnaK_38			Chaperone protein DnaK	GEN
+ICLPPAIG_56070	CDS	1479	ttuB_11			Putative tartrate transporter	GEN
+ICLPPAIG_56179	CDS	1740	lldD_9	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_56352	CDS	789		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_56354	CDS	603		1.6.5.2		NAD(P)H dehydrogenase (quinone)	GEN
+ICLPPAIG_56662	CDS	1173	icd-1_10	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_56713	CDS	1740	lldD_10	1.1.-.-		L-lactate dehydrogenase	GEN
+ICLPPAIG_56798	CDS	870	dnaJ_69			Chaperone protein DnaJ	GEN
+ICLPPAIG_56876	CDS	708	asd_2	1.2.1.11	COG0136	Aspartate-semialdehyde dehydrogenase	GEN
+ICLPPAIG_56941	CDS	1098	adhA_19	1.1.1.-	COG1064	putative formaldehyde dehydrogenase AdhA	GEN
+ICLPPAIG_56946	CDS	1218	iolG_6	1.1.1.369		Inositol 2-dehydrogenase/D-chiro-inositol 3-dehydrogenase	GEN
+ICLPPAIG_56953	CDS	2577	aroE_5	1.1.1.25		Shikimate dehydrogenase (NADP(+))	GEN
+ICLPPAIG_57175	CDS	1152	gpsA_9	1.1.1.94		Glycerol-3-phosphate dehydrogenase [NAD(P)+]	GEN
+ICLPPAIG_57266	CDS	1002	gapA_5	1.2.1.12	COG0057	Glyceraldehyde-3-phosphate dehydrogenase A	GEN
+ICLPPAIG_57439	CDS	1773	mdtP_22		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_57442	CDS	1386	dnaJ_70			Chaperone protein DnaJ	GEN
+ICLPPAIG_57511	CDS	1794	dnaJ_71			Chaperone protein DnaJ	GEN
+ICLPPAIG_57570	CDS	1077	bfmBAB_7	1.2.4.4	COG0022	2-oxoisovalerate dehydrogenase subunit beta	GEN
+ICLPPAIG_57585	CDS	1092	yfmJ_19	1.-.-.-	COG2130	Putative NADP-dependent oxidoreductase YfmJ	GEN
+ICLPPAIG_57605	CDS	2358	clcA_7			H(+)/Cl(-) exchange transporter ClcA	GEN
+ICLPPAIG_57618	CDS	1107	mmsB_5	1.1.1.31		3-hydroxyisobutyrate dehydrogenase	GEN
+ICLPPAIG_57646	CDS	1647	xylT_8			D-xylose transporter	GEN
+ICLPPAIG_57677	CDS	1479	ttuB_12			Putative tartrate transporter	GEN
+ICLPPAIG_57786	CDS	633	ndhK_5	7.1.1.-		NAD(P)H-quinone oxidoreductase subunit K, chloroplastic	GEN
+ICLPPAIG_57835	CDS	870	dnaJ_72			Chaperone protein DnaJ	GEN
+ICLPPAIG_57989	CDS	1455	lpd3_4	1.8.1.4	COG1249	Dihydrolipoyl dehydrogenase 3	GEN
+ICLPPAIG_57998	CDS	1230	icd-1_11	1.1.1.42	COG0538	Isocitrate dehydrogenase [NADP] 1	GEN
+ICLPPAIG_58275	CDS	1815	guaB_16	1.1.1.205		Inosine-5'-monophosphate dehydrogenase	GEN
+ICLPPAIG_58429	CDS	1851	betB_3	1.2.1.8		Betaine aldehyde dehydrogenase	GEN
+ICLPPAIG_58447	CDS	1791	mdtP_23		COG0477	Multidrug transporter protein MdtP	GEN
+ICLPPAIG_58612	CDS	3111	gcvP_7	1.4.4.2	COG0403	Glycine dehydrogenase (decarboxylating)	GEN
